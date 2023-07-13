@@ -2,6 +2,44 @@ version: "3.10.9"
 
 
 services:
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:6.2.0
+    container_name: zookeeper
+    ports:
+      - 2181:2181
+    environment:
+      - ZOOKEEPER_CLIENT_PORT=2181
+      - ZOOKEEPER_TICK_TIME=2000
+
+  kafka:
+    image: confluentinc/cp-kafka:6.2.0
+    container_name: kafka
+    ports:
+      - 9092:9092
+    environment:
+      - KAFKA_BROKER_ID=1
+      - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
+      - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+    depends_on:
+      - zookeeper
+
+  spark-master:
+    image: bitnami/spark:3
+    container_name: spark-master
+    ports:
+      - 8080:8080
+      - 7077:7077
+
+  spark-worker:
+    image: bitnami/spark:3
+    container_name: spark-worker
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+
   news_summarization:
     image: news_summarization
     container_name: news_summarization
