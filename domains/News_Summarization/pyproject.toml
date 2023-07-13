@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "news-summarization"
+version = "0.1.0"
+description = ""
+authors = ["Tan Chau <thomas.lezard.2002@gmail.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+transformers = "4.30.2"
+torch = "2.0.1"
+fastapi = "0.100.0"
+uvicorn = "0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

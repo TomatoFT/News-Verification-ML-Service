@@ -1,0 +1,89 @@
+version: "3.10.9"
+
+
+services:
+  news_summarization:
+    image: news_summarization
+    container_name: news_summarization
+    build:
+      context: ./domains/News_Summarization
+      target: dev
+    volumes:
+      - ./domains/News_Summarization/:/src
+    # env_file:
+    #   - ./domains/news_summarization/.env
+    #   - ./.env
+    ports:
+      - 3001:3000
+    # depends_on:
+    #   - ml_proxy
+    restart: always
+    networks:
+      - uit-news-verification
+    # un-comment this block to connect GPU to the container
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+
+  news_classification:
+    image: news_classification
+    container_name: news_classification
+    build:
+      context: ./domains/News_Classification
+      target: dev
+    volumes:
+      - ./domains/News_classification/:/src
+    # env_file:
+    #   - ./domains/news_classification/.env
+    #   - ./.env
+    ports:
+      - 3002:3000
+    # depends_on:
+    #   - ml_proxy
+    restart: always
+    networks:
+      - uit-news-verification
+    # un-comment this block to connect GPU to the container
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  news_relevancy:
+    image: news_relevancy
+    container_name: news_relevancy
+    build:
+      context: ./domains/News_Relevancy
+      target: dev
+    volumes:
+      - ./domains/News_Relevancy/:/src
+    # env_file:
+    #   - ./domains/news_relevancy/.env
+    #   - ./.env
+    ports:
+      - 3003:3000
+    # depends_on:
+    #   - ml_proxy
+    restart: always
+    networks:
+      - uit-news-verification
+    # un-comment this block to connect GPU to the container
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+networks:
+  uit-news-verification:
+    name: uit-news-verification
