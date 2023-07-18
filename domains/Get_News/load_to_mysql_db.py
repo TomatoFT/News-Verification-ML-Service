@@ -36,7 +36,7 @@ def get_connection_to_mysql():
 
 
 connection = get_connection_to_mysql()
-table_name = "News_article"
+table_name = "2_News_article"
 # Create a cursor object to execute SQL statements
 cursor = connection.cursor()
 
@@ -48,6 +48,8 @@ def create_table_in_db(connection, cursor, table_name):
         Title VARCHAR(255),
         Source VARCHAR(255),
         Content LONGTEXT,
+        Summarization TEXT,
+        Categories VARCHAR(20),
         Is_verified VARCHAR(255)
         )
         """.format(
@@ -72,8 +74,8 @@ def load_the_data_to_db(
     data, table_name=table_name, connection=connection, cursor=cursor
 ):
     try:
-        sql = f"INSERT INTO {table_name} (Source, Title, Content, Is_verified) VALUES (%s, %s, %s, %s)"
-        values = (data["Source"], data["Title"], data["Content"], data["Is_verified"])
+        sql = f"INSERT INTO {table_name} (Source, Title, Content, Summarization, Categories, Is_verified) VALUES (%s, %s, %s, %s, %s, %s)"
+        values = (data["Source"], data["Title"], data["Content"], data["Summarization"], data["Categories"], data["Is_verified"])
         cursor.execute(sql, values)
         # Commit the changes to the database
         connection.commit()
