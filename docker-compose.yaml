@@ -1,127 +1,139 @@
-version: "3.10.9"
-
+version: '3.10'
 
 services:
-
   zookeeper:
-    image: confluentinc/cp-zookeeper:6.2.0
+    image: wurstmeister/zookeeper
     container_name: zookeeper
     ports:
-      - 2181:2181
-    environment:
-      - ZOOKEEPER_CLIENT_PORT=2181
-      - ZOOKEEPER_TICK_TIME=2000
+      - "2181:2181"
+    restart: unless-stopped
+    networks:
+      - uit-news-verification
 
   kafka:
-    image: confluentinc/cp-kafka:6.2.0
+    image: wurstmeister/kafka
     container_name: kafka
     ports:
-      - 9092:9092
+      - "9092:9092"  # Port for PLAINTEXT listener
+      - "9093:9093"  # Port for PLAINTEXT_HOST listener
     environment:
-      - KAFKA_BROKER_ID=1
-      - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
-      - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092
-      - KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT://:9092,PLAINTEXT_HOST://:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:9093
+    restart: unless-stopped
     depends_on:
       - zookeeper
+    networks:
+      - uit-news-verification
 
-  spark-master:
-    image: bitnami/spark:3
-    container_name: spark-master
-    ports:
-      - 8080:8080
-      - 7077:7077
-
-  spark-worker:
-    image: bitnami/spark:3
-    container_name: spark-worker
-    depends_on:
-      - spark-master
+  db:
+    image: mysql:latest
+    container_name: mysql
+    restart: unless-stopped
     environment:
-      - SPARK_MASTER=spark://spark-master:7077
+      - MYSQL_ROOT_PASSWORD=uit-news
+      - MYSQL_DATABASE=verification
+    ports:
+      - "3306:3306"
+    networks:
+      - uit-news-verification
 
-  news_summarization:
-    image: news_summarization
-    container_name: news_summarization
+  # hadoop:
+  #   image: sequenceiq/hadoop-docker:2.7.1
+  #   container_name: hadoop
+  #   ports:
+  #     - '50070:50070'  # Web UI port
+  #     - '9000:9000'    # HDFS port
+  #   networks:
+  #     - uit-news-verification
+
+  get_news:
+    image: get_news
+    container_name: get_news
     build:
-      context: ./domains/News_Summarization
+      context: ./domains/Get_News
       target: dev
     volumes:
-      - ./domains/News_Summarization/:/src
-    # env_file:
-    #   - ./domains/news_summarization/.env
-    #   - ./.env
+      - './domains/Get_News/:/src'
     ports:
-      - 3001:3000
-    # depends_on:
-    #   - ml_proxy
+      - '3003:3000'
+    depends_on:
+      - kafka
+      - db
+      # - hadoop
     restart: always
     networks:
       - uit-news-verification
-    # un-comment this block to connect GPU to the container
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-
-
-  news_classification:
-    image: news_classification
-    container_name: news_classification
-    build:
-      context: ./domains/News_Classification
-      target: dev
-    volumes:
-      - ./domains/News_classification/:/src
-    # env_file:
-    #   - ./domains/news_classification/.env
-    #   - ./.env
-    ports:
-      - 3002:3000
-    # depends_on:
-    #   - ml_proxy
-    restart: always
-    networks:
-      - uit-news-verification
-    # un-comment this block to connect GPU to the container
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
-
-  news_relevancy:
-    image: news_relevancy
-    container_name: news_relevancy
-    build:
-      context: ./domains/News_Relevancy
-      target: dev
-    volumes:
-      - ./domains/News_Relevancy/:/src
-    # env_file:
-    #   - ./domains/news_relevancy/.env
-    #   - ./.env
-    ports:
-      - 3003:3000
-    # depends_on:
-    #   - ml_proxy
-    restart: always
-    networks:
-      - uit-news-verification
-    # un-comment this block to connect GPU to the container
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]
 
 networks:
   uit-news-verification:
     name: uit-news-verification
+
+
+
+
+  # news_summarization:
+  #   image: news_summarization
+  #   container_name: news_summarization
+  #   build:
+  #     context: ./domains/News_Summarization
+  #     target: dev
+  #   volumes:
+  #     - './domains/News_Summarization/:/src'
+  #   ports:
+  #     - '3001:3000'
+  #   restart: always
+  #   networks:
+  #     - uit-news-verification
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities:
+  #               - gpu
+  # news_classification:
+  #   image: news_classification
+  #   container_name: news_classification
+  #   build:
+  #     context: ./domains/News_Classification
+  #     target: dev
+  #   volumes:
+  #     - './domains/News_classification/:/src'
+  #   ports:
+  #     - '3002:3000'
+  #   restart: always
+  #   networks:
+  #     - uit-news-verification
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities:
+  #               - gpu
+  # news_relevancy:
+  #   image: news_relevancy
+  #   container_name: news_relevancy
+  #   build:
+  #     context: ./domains/News_Relevancy
+  #     target: dev
+  #   volumes:
+  #     - './domains/News_Relevancy/:/src'
+  #   ports:
+  #     - '3003:3000'
+  #   restart: always
+  #   networks:
+  #     - uit-news-verification
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities:
+  #               - gpu

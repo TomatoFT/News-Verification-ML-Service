@@ -1,9 +1,13 @@
-FROM pytorch/pytorch:2.0.0-cuda11.7-cudnn8-devel as base
+FROM python:3.10.9 as base
 
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Download Poetry
-RUN apt-get update && apt-get install -y curl git
+USER root
+RUN apt-get install -y curl
+
+
+
 RUN curl -sSL https://install.python-poetry.org | python3 -
 RUN mkdir /app/ /var/logs/
 
@@ -31,6 +35,8 @@ COPY . .
 # WORKDIR /src
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "3000"]
+
+# CMD ["python", "inference.py"]
 
 # ### PRODUCTION ###
 # FROM base as prod

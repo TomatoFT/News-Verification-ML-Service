@@ -1,14 +1,20 @@
-from sentence_transformers import SentenceTransformer
 import numpy as np
+from sentence_transformers import SentenceTransformer
+
 
 # Load the Vietnamese SBERT model
 def preload_relenvancy_model():
-    return SentenceTransformer('keepitreal/vietnamese-sbert')
+    return SentenceTransformer("keepitreal/vietnamese-sbert")
+
 
 model = preload_relenvancy_model()
 
+
 def calculate_the_similarity_score(embedding1, embedding2):
-    return np.dot(embedding1, embedding2) / (np.linalg.norm(embedding1) * np.linalg.norm(embedding2))
+    return np.dot(embedding1, embedding2) / (
+        np.linalg.norm(embedding1) * np.linalg.norm(embedding2)
+    )
+
 
 def get_the_similarity_score(sentence1, sentence2):
     # Encode the sentences
@@ -19,4 +25,3 @@ def get_the_similarity_score(sentence1, sentence2):
     similarity_score = calculate_the_similarity_score(embedding1, embedding2)
 
     return round(float(similarity_score), 3)
-
