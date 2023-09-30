@@ -5,71 +5,12 @@ from fastapi import FastAPI
 from kafka_server import get_data_from_consumer, push_data_to_producer
 from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
 from newspaper import Article
-import aiohttp
-import asyncio
+from domains.News_Summarization.inference import get_summarization_of_the_news
+from domains.News_Classification.inference import get_entities_of_news, get_news_categories, get_sentiment_of_the_news
 
 import requests
 
-def get_public_ip():
-    try:
-        response = requests.get('https://api.ipify.org?format=json')
-        if response.status_code == 200:
-            data = response.json()
-            return data['ip']
-        else:
-            print(f"Request failed with status code: {response.status_code}")
-    except requests.RequestException as e:
-        print(f"Request failed: {e}")
-    
-    return None
-
-hostname = get_public_ip()
-SUMMARIZATION_PORT = 3001
-CATEGORIES_PORT = 3002
-RELEVANCY_PORT = 3003
-
-
-async def fetch_data(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as response:
-            if response.status == 200:
-                return await response.text()
-            else:
-                return None
-
-app = FastAPI()
-
-
-async def make_Summarization_request(raw_texts):
-    url = f"http://{hostname}:{SUMMARIZATION_PORT}/api/get_news_summarization_content"
-    payload = {"news_content": raw_texts}
-    print(payload)
-
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, params=payload) as response:
-            response_text = await response.json()
-            return response_text
-
-async def make_get_categories_request(raw_texts):
-    url = f"http://{hostname}:{CATEGORIES_PORT}/api/get_news_categories"
-    payload = {"news_content": raw_texts}
-    print(payload)
-
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, params=payload) as response:
-            response_text = await response.json()
-            return response_text
-
-async def make_get_relevancy_score_request(text_1, text_2):
-    url = f"http://{hostname}:{CATEGORIES_PORT}/api/get_the_revelancy_score"
-    payload = {"first_news_content": text_1, 'seconnd_news_content':text_2}
-    print(payload)
-
-    async with aiohttp.ClientSession() as session:
-        async with session.post(url, params=payload) as response:
-            response_text = await response.json()
-            return response_text['score']
-
+app = FastAPI
 
 @app.post("/api/get_news_content_from_user")
 def get_news_content_from_url(news_url: str, is_verified: bool):
@@ -83,10 +24,9 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
         "Is_verified": str(is_verified),
     }
     # Add the summarize_content
-    loop = asyncio.new_event_loop()
     
-    results['Summarization'] = loop.run_until_complete(make_Summarization_request(results["Content"]))
-    results['Categories'] = loop.run_until_complete(make_get_categories_request(results["Content"]))
+    results['Summarization'] = get_summarization_of_the_news(results["Content"])
+    results['Categories'] = get_news_categories(results["Content"])
 
     serialized_value = json.dumps(results).encode("utf-8")
     push_data_to_producer(serialized_value)
