@@ -5,14 +5,16 @@ from fastapi import FastAPI
 from kafka_server import get_data_from_consumer, push_data_to_producer
 from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
 from newspaper import Article
-from domains.News_Summarization.inference import get_summarization_of_the_news
-from domains.News_Classification.inference import get_entities_of_news, get_news_categories, get_sentiment_of_the_news
+from News_Summarization.inference import get_summarization_of_the_news
+from News_Classification.inference import get_entities_of_news, get_news_categories, get_sentiment_of_the_news
 
 import requests
 
 app = FastAPI
 
-def get_news_content_from_url(news_url: str, is_verified: bool):
+@app.post('/news/feature_extraction')
+def get_news_content_from_url(news_url: str,
+                              is_verified: bool):
     article = Article(news_url, language="vi")
     article.download()
     article.parse()
@@ -44,7 +46,7 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
 
     return results
 
-results =  get_news_content_from_url(news_url="https://thanhnien.vn/bo-cong-an-bat-dong-san-nhat-nam-da-lua-dao-huy-dong-gan-9000-ti-dong-185230930182113574.htm" , 
-                                     is_verified=True)
+# results =  get_news_content_from_url(news_url="https://thanhnien.vn/bo-cong-an-bat-dong-san-nhat-nam-da-lua-dao-huy-dong-gan-9000-ti-dong-185230930182113574.htm" , 
+#                                      is_verified=True)
 
-print(results)
+# print(results)
