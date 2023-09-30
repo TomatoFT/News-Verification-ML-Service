@@ -12,7 +12,6 @@ import requests
 
 app = FastAPI
 
-@app.post("/api/get_news_content_from_user")
 def get_news_content_from_url(news_url: str, is_verified: bool):
     article = Article(news_url, language="vi")
     article.download()
@@ -28,19 +27,24 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
     results['Summarization'] = get_summarization_of_the_news(results["Content"])
     results['Categories'] = get_news_categories(results["Content"])
 
-    serialized_value = json.dumps(results).encode("utf-8")
-    push_data_to_producer(serialized_value)
+    # serialized_value = json.dumps(results).encode("utf-8")
+    # push_data_to_producer(serialized_value)
     
-    msg = get_data_from_consumer()
-    decode_value = ""
-    if msg == None:
-        print("ERROR")
-    else:
-        decode_value = msg.value().decode("utf-8")
-        decoded_dict = json.loads(decode_value)
-        load_the_data_to_db(results)
-        print("INSERT TO KAFKA SUCCESSFULLY")
-    observe_the_data_from_table()
+    # msg = get_data_from_consumer()
+    # decode_value = ""
+    # if msg == None:
+    #     print("ERROR")
+    # else:
+    #     decode_value = msg.value().decode("utf-8")
+    #     decoded_dict = json.loads(decode_value)
+    #     load_the_data_to_db(results)
+    #     print("INSERT TO KAFKA SUCCESSFULLY")
+    # observe_the_data_from_table()
 
 
     return results
+
+results =  get_news_content_from_url(news_url="https://thanhnien.vn/bo-cong-an-bat-dong-san-nhat-nam-da-lua-dao-huy-dong-gan-9000-ti-dong-185230930182113574.htm" , 
+                                     is_verified=True)
+
+print(results)
