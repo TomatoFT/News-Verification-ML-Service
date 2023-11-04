@@ -28,15 +28,45 @@ services:
     networks:
       - uit-news-verification
 
-  db:
-    image: mysql:latest
-    container_name: mysql
-    restart: unless-stopped
-    environment:
-      - MYSQL_ROOT_PASSWORD=uit-news
-      - MYSQL_DATABASE=verification
+  # db:
+  #   image: mysql:latest
+  #   container_name: mysql
+  #   restart: unless-stopped
+  #   environment:
+  #     - MYSQL_ROOT_PASSWORD=uit-news
+  #     - MYSQL_DATABASE=verification
+    # ports:
+    #   - "3306:3306"
+    # networks:
+    #   - uit-news-verification
+
+  training:
+    image: training
+    container_name: training
+    build:
+      context: ./domains/training
+      target: dev
+    volumes:
+      - './domains/training/:/src'
     ports:
-      - "3306:3306"
+      - '4004:3000'
+    depends_on:
+      - kafka
+      # - db
+    restart: always
+    networks:
+      - uit-news-verification
+
+  kafka-ui:
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - 8080:8080
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=local
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:9092
+    depends_on:
+      - kafka
+    restart: always
     networks:
       - uit-news-verification
 
@@ -49,96 +79,23 @@ services:
   #   networks:
   #     - uit-news-verification
 
-  get_news:
-    image: get_news
-    container_name: get_news
-    build:
-      context: ./domains/Get_News
-      target: dev
-    volumes:
-      - './domains/Get_News/:/src'
-    ports:
-      - '4003:3000'
-    depends_on:
-      - kafka
-      - db
-      # - hadoop
-    restart: always
-    networks:
-      - uit-news-verification
-
-  news_summarization:
-    image: news_summarization
-    container_name: news_summarization
-    build:
-      context: ./domains/News_Summarization
-      target: dev
-    volumes:
-      - './domains/News_Summarization/:/src'
-    ports:
-      - '3001:3000'
-    restart: always
-    networks:
-      - uit-news-verification
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities:
-                - gpu
-
-  news_classification:
-    image: news_classification
-    container_name: news_classification
-    build:
-      context: ./domains/News_Classification
-      target: dev
-    volumes:
-      - './domains/News_classification/:/src'
-    ports:
-      - '3002:3000'
-    restart: always
-    networks:
-      - uit-news-verification
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities:
-                - gpu
-                
-  news_relevancy:
-    image: news_relevancy
-    container_name: news_relevancy
-    build:
-      context: ./domains/News_Relevancy
-      target: dev
-    volumes:
-      - './domains/News_Relevancy/:/src'
-    ports:
-      - '3003:3000'
-    restart: always
-    networks:
-      - uit-news-verification
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities:
-                - gpu
-
-networks:
-  uit-news-verification:
-    name: uit-news-verification
-
-
-
+  # get_news:
+  #   image: get_news
+  #   container_name: get_news
+  #   build:
+  #     context: ./domains/Get_News
+  #     target: dev
+  #   volumes:
+  #     - './domains/Get_News/:/src'
+  #   ports:
+  #     - '4003:3000'
+  #   depends_on:
+  #     - kafka
+  #     - db
+  #     # - hadoop
+  #   restart: always
+  #   networks:
+  #     - uit-news-verification
 
   # news_summarization:
   #   image: news_summarization
@@ -161,6 +118,7 @@ networks:
   #             count: 1
   #             capabilities:
   #               - gpu
+
   # news_classification:
   #   image: news_classification
   #   container_name: news_classification
@@ -182,6 +140,7 @@ networks:
   #             count: 1
   #             capabilities:
   #               - gpu
+                
   # news_relevancy:
   #   image: news_relevancy
   #   container_name: news_relevancy
@@ -203,3 +162,7 @@ networks:
   #             count: 1
   #             capabilities:
   #               - gpu
+
+networks:
+  uit-news-verification:
+    name: uit-news-verification
