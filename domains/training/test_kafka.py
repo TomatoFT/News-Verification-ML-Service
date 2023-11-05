@@ -1,25 +1,22 @@
-from confluent_kafka import Consumer, Producer, KafkaException
 import time
-from models import (GRU, CNN_GRU, 
-                    CNN_LSTM, LSTM, Transformer )
+
+from confluent_kafka import Consumer, KafkaException, Producer
+
+from models import CNN_GRU, CNN_LSTM, GRU, LSTM, Transformer
+from kafka_server import OnlineKafkaServer
 
 # Kafka broker configuration
 bootstrap_servers = 'kafka:9092'
 topic = 'task_topic'
 group_id = 'training_test_1'
 
-# Create a Kafka consumer
-consumer = Consumer({
-    'bootstrap.servers': bootstrap_servers,
-    'group.id': group_id,
-    'auto.offset.reset': 'earliest'
-})
+# create Kafka server
+online_learning_server = OnlineKafkaServer(bootstrap_servers=bootstrap_servers,
+                                           topic=topic,
+                                           group_id=group_id)
 
-# Subscribe to the topic
-consumer.subscribe([topic])
-
-# Create a Kafka producer
-producer = Producer({'bootstrap.servers': bootstrap_servers})
+producer = online_learning_server.create_producer()
+consumer = online_learning_server.create_consumer()
 
 # Forever loop
 while True:

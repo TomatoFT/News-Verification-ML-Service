@@ -1,14 +1,15 @@
 # from load_to_hdfs import append_data_to_hdfs_file, read_hdfs_data_file, create_the_hdfs_file
 import json
 
+import requests
 from fastapi import FastAPI
 from kafka_server import get_data_from_consumer, push_data_to_producer
 from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
-from newspaper import Article
+from News_Classification.inference import (get_entities_of_news,
+                                           get_news_categories,
+                                           get_sentiment_of_the_news)
 from News_Summarization.inference import get_summarization_of_the_news
-from News_Classification.inference import get_entities_of_news, get_news_categories, get_sentiment_of_the_news
-
-import requests
+from newspaper import Article
 
 app = FastAPI
 

@@ -1,7 +1,8 @@
-from confluent_kafka import Producer
-from models.GRU import training
-from kafka_server import get_data_from_consumer, push_data_to_producer
 import logging
+
+from confluent_kafka import Producer
+from kafka_server import get_data_from_consumer, push_data_to_producer
+from models.GRU import training
 
 logger = logging.getLogger(__name__)
 # Set up Kafka producer
