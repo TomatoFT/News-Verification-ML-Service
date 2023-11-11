@@ -4,12 +4,28 @@ import string
 
 from confluent_kafka import Consumer, Producer
 
+class KafkaConsumer:
+    def __init__(self, name, bootstrap_servers, group_id) -> None:
+        self.consumer = Consumer({
+            'bootstrap.servers': bootstrap_servers,
+            'group.id': group_id,
+            'auto.offset.reset': 'earliest'
+        })
+        self.name = name
+
+class KafkaProducer:
+    def __init__(self, bootstrap_servers, name) -> None:
+        self.producer = Producer({'bootstrap.servers': bootstrap_servers})
+        self.name = name
+
+
 class OnlineKafkaServer:
-    # Kafka broker configuration
     def __init__(self, bootstrap_servers, topic, group_id):
         self.bootstrap_servers = bootstrap_servers
         self.topic = topic
         self.group_id = group_id
+        self.consumer_list = []
+        self.producer_list = []
 
     def create_consumer(self):
         self.consumer = Consumer({
