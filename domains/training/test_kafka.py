@@ -1,9 +1,8 @@
 import time
 
 from confluent_kafka import Consumer, KafkaException, Producer
-
-from models import CNN_GRU, CNN_LSTM, GRU, LSTM, Transformer
 from kafka_server import OnlineKafkaServer
+from models import CNN_GRU, CNN_LSTM, GRU, LSTM, Transformer
 
 # Kafka broker configuration
 bootstrap_servers = 'kafka:9092'
@@ -11,12 +10,16 @@ topic = 'task_topic'
 group_id = 'training_test_1'
 
 # create Kafka server
-online_learning_server = OnlineKafkaServer(bootstrap_servers=bootstrap_servers,
-                                           topic=topic,
-                                           group_id=group_id)
+server = OnlineKafkaServer(bootstrap_servers=bootstrap_servers, group_id=group_id)
+server.create_consumer(name='consumer-1')
 
-producer = online_learning_server.create_producer()
-consumer = online_learning_server.create_consumer()
+consumer = server.get_consumer(name='consumer-1')
+consumer.subcribe(topic)
+
+server.create_producer(name='producer-1')
+
+producer = server.get_producer(name='producer-1')
+
 
 # Forever loop
 while True:
