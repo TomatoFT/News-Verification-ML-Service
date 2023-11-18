@@ -75,7 +75,14 @@ def load_the_data_to_db(
 ):
     try:
         sql = f"INSERT INTO {table_name} (Source, Title, Content, Summarization, Categories, Is_verified) VALUES (%s, %s, %s, %s, %s, %s)"
-        values = (data["Source"], data["Title"], data["Content"], data["Summarization"], data["Categories"], data["Is_verified"])
+        values = (
+            data["Source"],
+            data["Title"],
+            data["Content"],
+            data["Summarization"],
+            data["Categories"],
+            data["Is_verified"],
+        )
         cursor.execute(sql, values)
         # Commit the changes to the database
         connection.commit()
