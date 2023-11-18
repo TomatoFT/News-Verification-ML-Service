@@ -40,22 +40,22 @@ services:
     networks:
       - uit-news-verification
 
-  training:
-    image: training
-    container_name: training
-    build:
-      context: ./domains/training
-      target: dev
-    volumes:
-      - './domains/training/:/src'
-    ports:
-      - '4004:3000'
-    depends_on:
-      - kafka
-      # - db
-    restart: always
-    networks:
-      - uit-news-verification
+  # training:
+  #   image: training
+  #   container_name: training
+  #   build:
+  #     context: ./domains/training
+  #     target: dev
+  #   volumes:
+  #     - './domains/training/:/src'
+  #   ports:
+  #     - '4004:3000'
+  #   depends_on:
+  #     - kafka
+  #     # - db
+  #   restart: always
+  #   networks:
+  #     - uit-news-verification
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
@@ -79,23 +79,23 @@ services:
   #   networks:
   #     - uit-news-verification
 
-  # get_news:
-  #   image: get_news
-  #   container_name: get_news
-  #   build:
-  #     context: ./domains/Get_News
-  #     target: dev
-  #   volumes:
-  #     - './domains/Get_News/:/src'
-  #   ports:
-  #     - '4003:3000'
-  #   depends_on:
-  #     - kafka
-  #     - db
-  #     # - hadoop
-  #   restart: always
-  #   networks:
-  #     - uit-news-verification
+  get_news:
+    image: get_news
+    container_name: get_news
+    build:
+      context: ./domains/Get_News
+      target: dev
+    volumes:
+      - './domains/Get_News/:/src'
+    ports:
+      - '4003:3000'
+    depends_on:
+      - kafka
+      - db
+      # - hadoop
+    restart: always
+    networks:
+      - uit-news-verification
 
   # news_summarization:
   #   image: news_summarization
@@ -140,7 +140,7 @@ services:
   #             count: 1
   #             capabilities:
   #               - gpu
-                
+
   # news_relevancy:
   #   image: news_relevancy
   #   container_name: news_relevancy

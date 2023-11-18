@@ -5,22 +5,35 @@ import string
 from confluent_kafka import Consumer, Producer
 
 
+def generate_the_keys():
+    return "".join(random.choices(string.ascii_lowercase, k=4))
+
+
 class KafkaConsumer:
     def __init__(self, name, bootstrap_servers, group_id) -> None:
-        self.consumer = Consumer({
-            'bootstrap.servers': bootstrap_servers,
-            'group.id': group_id,
-            'auto.offset.reset': 'earliest'
-        })
+        self.consumer = Consumer(
+            {
+                "bootstrap.servers": bootstrap_servers,
+                "group.id": group_id,
+                "auto.offset.reset": "earliest",
+            }
+        )
         self.name = name
 
-    def subcribe(self, topic):
+    def subscribe(self, topic):
         self.consumer.subscribe([topic])
+
 
 class KafkaProducer:
     def __init__(self, bootstrap_servers, name) -> None:
-        self.producer = Producer({'bootstrap.servers': bootstrap_servers})
+        self.producer = Producer({"bootstrap.servers": bootstrap_servers})
         self.name = name
+
+    def push_data(self, topic, value, key=generate_the_keys()):
+        # Produce a message to Kafka
+        self.producer.produce(topic, key=key, value=value)
+        self.producer.flush()
+
 
 class KafkaTopic:
     def __init__(self) -> None:
@@ -44,7 +57,9 @@ class OnlineKafkaServer:
         self.producer_list = []
 
     def create_consumer(self, name: str, topic: KafkaTopic):
-        consumer = KafkaConsumer(name=name, bootstrap_servers=self.bootstrap_servers, group_id=self.group_id)
+        consumer = KafkaConsumer(
+            name=name, bootstrap_servers=self.bootstrap_servers, group_id=self.group_id
+        )
         consumer.subscribe(topic)
         self.consumer_list.append(consumer)
 
@@ -57,10 +72,10 @@ class OnlineKafkaServer:
         for consumer in self.consumer_list:
             if consumer.name == name:
                 return consumer.consumer
-        return 'Consumer not existed'
-            
+        return "Consumer not existed"
+
     def get_producer(self, name: str):
         for producer in self.producer_list:
             if producer.name == name:
                 return producer.producer
-        return 'Producer not existed'
+        return "Producer not existed"
