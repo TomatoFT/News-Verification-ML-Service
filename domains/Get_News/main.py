@@ -1,9 +1,9 @@
 # from load_to_hdfs import append_data_to_hdfs_file, read_hdfs_data_file, create_the_hdfs_file
 import json
-
+import time
 import requests
 from fastapi import FastAPI
-from kafka_server import OnlineKafkaServer
+from kafka_server import OnlineKafkaServer, generate_the_keys
 
 # from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
 # from News_Classification.inference import (
@@ -16,6 +16,7 @@ from newspaper import Article
 
 # Kafka broker configuration
 bootstrap_servers = "kafka:9092"
+
 topic = "task_topic"
 group_id = "training_test_1"
 
@@ -23,17 +24,17 @@ group_id = "training_test_1"
 server = OnlineKafkaServer(bootstrap_servers=bootstrap_servers, group_id=group_id)
 
 server.create_consumer(name="consumer-1", topic=topic)
-print(server.get_consumer(name="consumer-1").name)
-consumer = server.get_consumer(name="consumer-1")
+print(server.get_consumer(name="consumer-1").consumer)
+consumer = server.get_consumer(name="consumer-1").consumer
 
 server.create_producer(name="producer-1")
-producer = server.get_producer(name="producer-1")
+producer = server.get_producer(name="producer-1").producer
 print(producer)
 
 app = FastAPI()
 
 
-# @app.post("/news/feature_extraction")
+@app.post("/news/collect")
 def get_news_content_from_url(news_url: str, is_verified: bool):
     article = Article(news_url, language="vi")
     article.download()
@@ -50,9 +51,13 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
     # results["Categories"] = get_news_categories(results["Content"])
 
     serialized_value = json.dumps(results).encode("utf-8")
-    producer.push_data(topic=topic, value=serialized_value)
+    # producer.push_data(topic=topic, value=serialized_value)
+    producer.produce(topic=topic, key=generate_the_keys(), value=serialized_value)
+    producer.flush()
+    time.sleep(20)
 
-    msg = consumer.consumer.poll(1.0)
+
+    msg = consumer.poll(1.0)
     print("msg", msg)
     decode_value = ""
     if msg == None:
@@ -67,10 +72,3 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
 
     return results
 
-
-results = get_news_content_from_url(
-    news_url="https://thanhnien.vn/bo-cong-an-bat-dong-san-nhat-nam-da-lua-dao-huy-dong-gan-9000-ti-dong-185230930182113574.htm",
-    is_verified=True,
-)
-
-print(results)

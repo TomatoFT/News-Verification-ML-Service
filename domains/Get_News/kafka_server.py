@@ -29,7 +29,10 @@ class KafkaProducer:
     def push_data(self, topic, value, key=generate_the_keys()):
         # Produce a message to Kafka
         self.producer.produce(topic, key=key, value=value)
+        # print(value)
+        print('PRODUCED')
         self.producer.flush()
+        print('flushed')
 
 
 class KafkaTopic:
@@ -57,6 +60,7 @@ class OnlineKafkaServer:
         consumer = KafkaConsumer(
             name=name, bootstrap_servers=self.bootstrap_servers, group_id=self.group_id
         )
+        print(topic)
         consumer.consumer.subscribe([topic])
         self.consumer_list.append(consumer)
 
