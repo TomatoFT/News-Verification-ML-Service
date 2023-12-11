@@ -2,6 +2,7 @@ import time
 
 from confluent_kafka import KafkaException
 from kafka_server import OnlineKafkaServer
+from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
 from models import CNN_GRU, CNN_LSTM, GRU, LSTM, Transformer
 
 # Kafka broker configuration
@@ -22,16 +23,16 @@ producer = server.get_producer(name="producer-1")
 # Forever loop
 while True:
     # Task details
-    task = "Retrain model"
+    # task = "Retrain model"
 
-    # Produce the task message
-    producer.produce(topic, value=str(task).encode("utf-8"))
+    # # Produce the task message
+    # producer.produce(topic, value=str(task).encode("utf-8"))
 
-    # Flush the producer to ensure the message is sent
-    producer.flush()
+    # # Flush the producer to ensure the message is sent
+    # producer.flush()
 
-    # Wait for 20 seconds before sending the next task
-    time.sleep(20)
+    # # Wait for 20 seconds before sending the next task
+    # time.sleep(80)
 
     # Consume messages
     try:
@@ -54,12 +55,13 @@ while True:
         print(task)
         if task == "Retrain model":
             GRU.training()
-            LSTM.training()
-            CNN_LSTM.training()
-            CNN_GRU.training()
-            Transformer.training()
+            # LSTM.training()
+            # CNN_LSTM.training()
+            # CNN_GRU.training()
+            # Transformer.training()
         else:
-            print("Task not Found")
+            load_the_data_to_db(data=eval(task))
+            observe_the_data_from_table()
 
     except KeyboardInterrupt:
         break

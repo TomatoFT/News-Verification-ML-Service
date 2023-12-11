@@ -1,6 +1,21 @@
 version: '3.10'
 
 services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: unless-stopped
+    security_opt:
+       - no-new-privileges:true
+    volumes:
+       - /etc/localtime:/etc/localtime:ro
+       - /var/run/docker.sock:/var/run/docker.sock:ro
+       - ./portainer-data:/data
+    ports:
+     - 9443:9443
+     - 8000:8000
+
+  
   zookeeper:
     image: wurstmeister/zookeeper
     container_name: zookeeper
@@ -40,22 +55,22 @@ services:
     networks:
       - uit-news-verification
 
-  # training:
-  #   image: training
-  #   container_name: training
-  #   build:
-  #     context: ./domains/training
-  #     target: dev
-  #   volumes:
-  #     - './domains/training/:/src'
-  #   ports:
-  #     - '4004:3000'
-  #   depends_on:
-  #     - kafka
-  #     # - db
-  #   restart: always
-  #   networks:
-  #     - uit-news-verification
+  training:
+    image: training
+    container_name: training
+    build:
+      context: ./domains/training
+      target: dev
+    volumes:
+      - './domains/training/:/src'
+    ports:
+      - '4004:3000'
+    depends_on:
+      - kafka
+      # - db
+    restart: always
+    networks:
+      - uit-news-verification
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest

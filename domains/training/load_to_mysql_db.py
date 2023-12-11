@@ -48,8 +48,6 @@ def create_table_in_db(connection, cursor, table_name):
         Title VARCHAR(255),
         Source VARCHAR(255),
         Content LONGTEXT,
-        Summarization TEXT,
-        Categories VARCHAR(20),
         Is_verified VARCHAR(255)
         )
         """.format(
@@ -73,14 +71,15 @@ else:
 def load_the_data_to_db(
     data, table_name=table_name, connection=connection, cursor=cursor
 ):
+    print(data)
     try:
-        sql = f"INSERT INTO {table_name} (Source, Title, Content, Summarization, Categories, Is_verified) VALUES (%s, %s, %s, %s, %s, %s)"
+        sql = f"INSERT INTO {table_name} (Source, Title, Content, Is_verified) VALUES (%s, %s, %s, %s)"
         values = (
             data["Source"],
             data["Title"],
             data["Content"],
-            data["Summarization"],
-            data["Categories"],
+            # data["Summarization"],
+            # data["Categories"],
             data["Is_verified"],
         )
         cursor.execute(sql, values)
@@ -109,3 +108,4 @@ def observe_the_data_from_table(table_name=table_name, cursor=cursor):
         print(row)
 
     return "Successfully observe"
+

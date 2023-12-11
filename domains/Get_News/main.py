@@ -1,10 +1,10 @@
 # from load_to_hdfs import append_data_to_hdfs_file, read_hdfs_data_file, create_the_hdfs_file
 import json
 import time
+
 import requests
 from fastapi import FastAPI
 from kafka_server import OnlineKafkaServer, generate_the_keys
-
 # from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
 # from News_Classification.inference import (
 #     get_entities_of_news,
@@ -57,18 +57,18 @@ def get_news_content_from_url(news_url: str, is_verified: bool):
     time.sleep(20)
 
 
-    msg = consumer.poll(1.0)
-    print("msg", msg)
-    decode_value = ""
-    if msg == None:
-        print("ERROR")
-    else:
-        decode_value = msg.value().decode("utf-8")
-        decoded_dict = json.loads(decode_value)
-        print(decoded_dict)
-        # load_the_data_to_db(results)
-        print("INSERT TO KAFKA SUCCESSFULLY")
-    # observe_the_data_from_table()
+    # msg = consumer.poll(1.0)
+    # print("msg", msg)
+    # decode_value = ""
+    # if msg == None:
+    #     print("ERROR")
+    # else:
+    #     decode_value = msg.value().decode("utf-8")
+    #     decoded_dict = json.loads(decode_value)
+    #     print(decoded_dict)
+    #     # load_the_data_to_db(results)
+    #     print("INSERT TO KAFKA SUCCESSFULLY")
+    # # observe_the_data_from_table()
 
     return results
 
