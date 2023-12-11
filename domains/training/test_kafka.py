@@ -2,7 +2,8 @@ import time
 
 from confluent_kafka import KafkaException
 from kafka_server import OnlineKafkaServer
-from load_to_mysql_db import load_the_data_to_db, observe_the_data_from_table
+from load_to_mysql_db import (count_data, load_the_data_to_db,
+                              observe_the_data_from_table)
 from models import CNN_GRU, CNN_LSTM, GRU, LSTM, Transformer
 
 # Kafka broker configuration
@@ -23,7 +24,8 @@ producer = server.get_producer(name="producer-1")
 # Forever loop
 while True:
     # Task details
-    # task = "Retrain model"
+    if count_data() > 4:
+        task = "Retrain model"
 
     # # Produce the task message
     # producer.produce(topic, value=str(task).encode("utf-8"))
