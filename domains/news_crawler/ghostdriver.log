@@ -1,0 +1,7 @@
+PhantomJS is launching GhostDriver...
+[INFO  - 2023-12-12T20:15:52.982Z] GhostDriver - Main - running on port 54411
+[INFO  - 2023-12-12T20:15:53.947Z] Session [4079c670-992b-11ee-b389-71e97e7f4bd0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2023-12-12T20:15:53.947Z] Session [4079c670-992b-11ee-b389-71e97e7f4bd0] - page.customHeaders:  - {}
+[INFO  - 2023-12-12T20:15:53.948Z] Session [4079c670-992b-11ee-b389-71e97e7f4bd0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2023-12-12T20:15:53.948Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4079c670-992b-11ee-b389-71e97e7f4bd0
+[ERROR - 2023-12-12T20:15:56.138Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1702412156079

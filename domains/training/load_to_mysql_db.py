@@ -117,7 +117,11 @@ def count_data(table_name=table_name, cursor=cursor):
     return cursor.fetchall()
 
 def count_data_with_condition(condition, table_name=table_name, cursor=cursor):
-    query = f"SELECT COUNT(*) FROM {table_name} WHERE {condition}"
+    query = f"""
+    SELECT COUNT(*) 
+    FROM {table_name} 
+    WHERE {condition}
+    """
 
     cursor.execute(query)
 
