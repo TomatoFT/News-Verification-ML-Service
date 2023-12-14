@@ -4204,3 +4204,994 @@ ATTENTION: default value of option mesa_glthread overridden by environment.
 1702505162462	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 1702505163130	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
 JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702505323438	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702505324227	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702505332844	Marionette	INFO	Stopped listening on port 36303
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
+1702508667732	geckodriver	INFO	Listening on 127.0.0.1:43187
+1702508668325	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewd7p49"
+Gtk-Message: 06:04:28.353: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:139158): Gtk-WARNING **: 06:04:28.447: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 06:04:28.447: Failed to load module "canberra-gtk-module"
+
+(firefox:139158): Gtk-WARNING **: 06:04:28.449: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 06:04:28.449: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702508669441	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702508669569	Marionette	INFO	Listening on port 37251
+Read port: 37251
+1702508669755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702508673278	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702508699450	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702508715499	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702508793279	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702508799298	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702508877321	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702508881475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702508882500	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702508964456	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702508968495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702509051582	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509062439	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509068415	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509142413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509146484	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509148441	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702509221002	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509221167	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509221538	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509299306	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509300203	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509377428	Marionette	INFO	Stopped listening on port 37251
+JavaScript warning: https://cdnstoremedia.com/adt/cpc/tvcads/files/html/demo_260218/visen.js, line 402: Script terminated by timeout at:
+VisMon.Strategy.PollingStrategy.prototype.start/intervalId<@https://cdnstoremedia.com/adt/cpc/tvcads/files/html/demo_260218/visen.js:402:17
+
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:15615
+
+1702509380450	geckodriver	INFO	Listening on 127.0.0.1:37749
+1702509381194	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJOruGl"
+Gtk-Message: 06:16:21.218: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:155044): Gtk-WARNING **: 06:16:21.316: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 06:16:21.316: Failed to load module "canberra-gtk-module"
+
+(firefox:155044): Gtk-WARNING **: 06:16:21.319: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 06:16:21.319: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702509382444	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702509382619	Marionette	INFO	Listening on port 41697
+Read port: 41697
+1702509382943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702509390568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702509412811	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702509464281	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509469419	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509469420	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509544575	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509545154	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702509628266	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509628836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509628972	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509713071	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509713633	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702509791665	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509796150	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509808681	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509809612	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702509889189	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509889873	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509889981	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509968118	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702509968615	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702509968616	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702510053373	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702510054247	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702510139839	Marionette	INFO	Stopped listening on port 41697
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
+1702546325174	geckodriver	INFO	Listening on 127.0.0.1:44543
+1702546325854	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilehyHZpX"
+Gtk-Message: 16:32:05.872: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:18219): Gtk-WARNING **: 16:32:05.925: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:05.925: Failed to load module "canberra-gtk-module"
+
+(firefox:18219): Gtk-WARNING **: 16:32:05.927: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:05.927: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546326384	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546326487	Marionette	INFO	Listening on port 33171
+Read port: 33171
+1702546326624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+1702546327675	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702546327743	Marionette	INFO	Stopped listening on port 33171
+1702546332713	geckodriver	INFO	Listening on 127.0.0.1:56047
+1702546333560	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile7rsJC3"
+Gtk-Message: 16:32:13.575: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:18803): Gtk-WARNING **: 16:32:13.618: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:13.618: Failed to load module "canberra-gtk-module"
+
+(firefox:18803): Gtk-WARNING **: 16:32:13.619: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:13.619: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546334068	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546334178	Marionette	INFO	Listening on port 38657
+Read port: 38657
+1702546334302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 229))
+1702546335325	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702546335398	Marionette	INFO	Stopped listening on port 38657
+1702546355082	geckodriver	INFO	Listening on 127.0.0.1:43151
+1702546355955	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1Rl07u"
+Gtk-Message: 16:32:35.970: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:19446): Gtk-WARNING **: 16:32:36.013: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:36.013: Failed to load module "canberra-gtk-module"
+
+(firefox:19446): Gtk-WARNING **: 16:32:36.014: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:32:36.014: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546356485	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702546356570	Marionette	INFO	Listening on port 37597
+Read port: 37597
+1702546356693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702546363796	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702546386716	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702546408523	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702546409188	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702546498889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702546500039	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5145.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5145.js:2:343300
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5145.js:2:313893
+
+1702546583023	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702546583344	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702546583346	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1702547499517	geckodriver	INFO	Listening on 127.0.0.1:58859
+1702547500399	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileowqGBD"
+Gtk-Message: 16:51:40.414: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:21448): Gtk-WARNING **: 16:51:40.457: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:51:40.457: Failed to load module "canberra-gtk-module"
+
+(firefox:21448): Gtk-WARNING **: 16:51:40.458: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 16:51:40.458: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702547500903	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702547500965	Marionette	INFO	Listening on port 46369
+Read port: 46369
+1702547501125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702547503613	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702547530920	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702547545010	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547545861	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702547629808	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547630372	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702547706861	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547707163	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702547777777	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547778433	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702547856627	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702547942284	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547952076	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702547952524	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702547952751	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702548029230	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548029869	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript error: https://static.contineljs.com/core/sponsoradx110.js, line 259: TypeError: parent.checkAvaiBanHtml5 is not a function
+1702548110012	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548190495	Marionette	INFO	Stopped listening on port 46369
+1702548191734	geckodriver	INFO	Listening on 127.0.0.1:38853
+1702548191859	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWl34RF"
+Gtk-Message: 17:03:11.877: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:25215): Gtk-WARNING **: 17:03:11.945: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 17:03:11.945: Failed to load module "canberra-gtk-module"
+
+(firefox:25215): Gtk-WARNING **: 17:03:11.946: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 17:03:11.946: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702548192449	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702548192538	Marionette	INFO	Listening on port 44165
+Read port: 44165
+1702548192663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702548195342	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702548223434	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702548284779	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548363892	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548364440	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548439482	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548440109	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548517560	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548517973	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702548604889	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548629502	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548719581	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548719826	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702548802488	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548803196	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702548888807	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702548889445	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702548965448	Marionette	INFO	Stopped listening on port 44165
+1702558398655	geckodriver	INFO	Listening on 127.0.0.1:44631
+1702558399543	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUbgSBn"
+Gtk-Message: 19:53:19.572: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:39429): Gtk-WARNING **: 19:53:19.647: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:53:19.647: Failed to load module "canberra-gtk-module"
+
+(firefox:39429): Gtk-WARNING **: 19:53:19.650: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 19:53:19.650: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702558400306	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702558400442	Marionette	INFO	Listening on port 44169
+Read port: 44169
+1702558400550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702558419712	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702558430316	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702558488619	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558489371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702558579205	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702558619702	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558620303	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702558620304	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702558709703	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558710423	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702558789377	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558790890	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702558803742	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558804540	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702558887544	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558888534	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702558974927	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702558975975	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702559052803	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702559053524	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702559140021	Marionette	INFO	Stopped listening on port 44169
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
+1702559141799	geckodriver	INFO	Listening on 127.0.0.1:55233
+1702559142442	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile9ezmZ5"
+Gtk-Message: 20:05:42.469: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:43130): Gtk-WARNING **: 20:05:42.557: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:05:42.557: Failed to load module "canberra-gtk-module"
+
+(firefox:43130): Gtk-WARNING **: 20:05:42.560: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:05:42.560: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702559143273	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702559143410	Marionette	INFO	Listening on port 35327
+Read port: 35327
+1702559143578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702559151536	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1702561642117	geckodriver	INFO	Listening on 127.0.0.1:51407
+1702561643020	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevkZer5"
+Gtk-Message: 20:47:23.036: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:46168): Gtk-WARNING **: 20:47:23.085: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:47:23.085: Failed to load module "canberra-gtk-module"
+
+(firefox:46168): Gtk-WARNING **: 20:47:23.086: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 20:47:23.086: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702561643539	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702561643633	Marionette	INFO	Listening on port 36905
+Read port: 36905
+1702561643760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702561646899	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702561673722	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702561724004	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702561724782	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702561797682	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702561798215	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702561874323	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702561874828	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702561874968	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702561918683	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702561919657	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702561919658	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702561997878	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702561999319	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://static.mediacdn.vn/vtv/web_js/thethao.bundle.14112023v1.min.js, line 61: TypeError: t[0] is undefined
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562015727	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562016464	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562016465	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562099299	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562099831	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562099911	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+1702562193699	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562194437	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/amt/libs/delux_expandable.js, line 39: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562350622	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562351333	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562359953	Marionette	INFO	Stopped listening on port 36905
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
+1702562445643	geckodriver	INFO	Listening on 127.0.0.1:41389
+1702562446554	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileoDy4oN"
+Gtk-Message: 21:00:46.569: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:50094): Gtk-WARNING **: 21:00:46.614: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 21:00:46.614: Failed to load module "canberra-gtk-module"
+
+(firefox:50094): Gtk-WARNING **: 21:00:46.614: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 21:00:46.614: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702562447104	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702562447170	Marionette	INFO	Listening on port 42247
+Read port: 42247
+1702562447313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702562453610	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702562477525	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702562536234	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562537018	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562618316	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562618899	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562667982	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562668338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562668574	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702562747475	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562748423	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562831150	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702562853365	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562853705	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702562942667	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702562943328	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702563025455	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702563026280	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702563110016	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702563111020	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702563198013	Marionette	INFO	Stopped listening on port 42247
+1702566871617	geckodriver	INFO	Listening on 127.0.0.1:35861
+1702566872511	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile6LClyD"
+Gtk-Message: 22:14:32.529: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:55010): Gtk-WARNING **: 22:14:32.579: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:14:32.579: Failed to load module "canberra-gtk-module"
+
+(firefox:55010): Gtk-WARNING **: 22:14:32.580: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:14:32.580: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702566873023	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702566873086	Marionette	INFO	Listening on port 36425
+Read port: 36425
+1702566873216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702566880050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702566903590	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702566926538	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702566927430	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702566927433	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567006055	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567006724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567089538	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567089896	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702567089898	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567177907	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567263861	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567265153	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567281311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567366113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567367042	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702567367050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702567442748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567443568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702567593805	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702567594691	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702567603195	Marionette	INFO	Stopped listening on port 36425
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+b.invert@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:11736
+b.updateContext@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:2978
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8360
+c.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:14:28037
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8379
+c.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:14:28037
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8379
+b.update@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:14512
+b.handleEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:14830
+b._dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:4075
+b._dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:4158
+b.dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:3479
+a._tick@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:7459
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6772
+
+1702568073897	geckodriver	INFO	Listening on 127.0.0.1:60705
+1702568074704	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVVURB8"
+Gtk-Message: 22:34:34.719: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:58462): Gtk-WARNING **: 22:34:34.763: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:34:34.763: Failed to load module "canberra-gtk-module"
+
+(firefox:58462): Gtk-WARNING **: 22:34:34.764: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 22:34:34.764: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702568075211	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702568075297	Marionette	INFO	Listening on port 41759
+Read port: 41759
+1702568075402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702568078507	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702568105221	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702568120115	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568121354	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568195732	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568196312	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568276811	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568277552	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702568277553	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568351239	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568351724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702568440587	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568441559	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568455520	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568456155	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568538054	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568538858	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702568621156	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568621695	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702568705040	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702568705851	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702568789184	Marionette	INFO	Stopped listening on port 41759
+1702576072970	geckodriver	INFO	Listening on 127.0.0.1:59521
+1702576073764	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeaitku"
+Gtk-Message: 00:47:53.780: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:62821): Gtk-WARNING **: 00:47:53.830: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 00:47:53.830: Failed to load module "canberra-gtk-module"
+
+(firefox:62821): Gtk-WARNING **: 00:47:53.831: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 00:47:53.831: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702576074305	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702576074372	Marionette	INFO	Listening on port 45851
+Read port: 45851
+1702576074524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702576081690	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702576104992	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702576115701	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576203981	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576204613	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702576204879	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576283546	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576283992	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576362243	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576362981	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+1702576447130	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576448651	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576464633	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576465061	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576547466	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576548188	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+1702576625713	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576626393	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702576716144	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702576796182	Marionette	INFO	Stopped listening on port 45851
+JavaScript warning: https://cdnstoremedia.com/adt/cpc/tvcads/files/html/demo_260218/visen.js, line 402: Script terminated by timeout at:
+VisMon.Strategy.PollingStrategy.prototype.start/intervalId<@https://cdnstoremedia.com/adt/cpc/tvcads/files/html/demo_260218/visen.js:402:17
+
+1702577138497	geckodriver	INFO	Listening on 127.0.0.1:51705
+1702577139537	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVJ8y8m"
+Gtk-Message: 01:05:39.553: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:66811): Gtk-WARNING **: 01:05:39.607: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 01:05:39.607: Failed to load module "canberra-gtk-module"
+
+(firefox:66811): Gtk-WARNING **: 01:05:39.608: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 01:05:39.608: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702577140148	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702577140229	Marionette	INFO	Listening on port 46441
+Read port: 46441
+1702577140360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702577142936	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702577170154	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702577231603	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577232417	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577321578	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577322422	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577399339	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577400184	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702577400361	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577487311	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577488096	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+1702577577162	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577578084	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577596843	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577597888	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702577597890	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577678938	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577679811	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://cdnstoremedia.com/adt/tvc/files/js/0520/delux_expandable.js, line 46: TypeError: parent.__ADMWindowisActive is not a function
+1702577837674	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577838412	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702577847861	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702577928623	Marionette	INFO	Stopped listening on port 46441
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
