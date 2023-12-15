@@ -2,26 +2,12 @@ import time
 
 import newspaper
 import pandas as pd
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.service import Service as FirefoxService
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
 IS_NEWS_TOKEN = 6
-
-
-import time
-
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-
-IS_NEWS_TOKEN = 2  # Assuming this is a constant for the token length
 
 class NewsInformation:
     def __init__(self, link, category, source) -> None:
@@ -29,21 +15,23 @@ class NewsInformation:
         self.category = category
         self.source = source
 
+
 class BaseNewsLinks:
     source = None
-    black_list = []
     format_category_urls = []
     unformat_category_urls = []
     articles_link = []
+    news_pos = 0
+
     def __init__(self, path='geckodriver') -> None:
         self.paper = newspaper.build(self.source)
         self.driver = webdriver.Firefox(executable_path=path)
 
     @staticmethod
-    def is_news_article(link):
+    def is_news_article(link, news_pos):
         try:
             part = link.split('/')
-            token = part[4].split('-')
+            token = part[news_pos].split('-')
             return len(token) > IS_NEWS_TOKEN
         except:
             return False
@@ -66,13 +54,12 @@ class BaseNewsLinks:
 
                 # Find all anchor tags (links) using Selenium
                 links = self.driver.find_elements(By.XPATH, "//a[@href]")
-
                 try:
                     # Extract and print the href attribute of each link
                     for link in links:
                         href = str(link.get_attribute('href'))
                         print(href)
-                        if self.is_news_article(href):
+                        if self.is_news_article(href, self.news_pos):
                             articles_link.append(NewsInformation(link=href, 
                                                                  category=category, 
                                                                  source=self.source))
@@ -98,24 +85,3 @@ class BaseNewsLinks:
         })
 
         df.to_csv(file_name, index=False)  # Save to CSV without index
-
-
-class VTVNewsLinks(BaseNewsLinks):
-    black_list = ['zoom', 'megazine']
-    source = 'https://vtv.vn/' 
-    format_category_urls = [
-                    'chinh-tri.htm',
-                    'xa-hoi.htm',
-                    'phap-luat.htm',
-                    'the-gioi.htm',
-                    'kinh-te.htm',
-                    'the-thao.htm',
-                    'van-hoa-giai-tri.htm',
-                    'doi-song.htm',
-                    'cong-nghe.htm',
-                    'giao-duc.htm']
-    unformat_category_urls = ['https://suckhoe.vtv.vn/']
-
-# Example usage
-vtv = VTVNewsLinks()
-vtv.get_articles_link().to_csv('VTV_link.csv')

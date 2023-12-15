@@ -5195,3 +5195,901 @@ n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
 JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
 a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
 
+1702617752255	geckodriver	INFO	Listening on 127.0.0.1:53323
+1702617752594	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJt9bHv"
+Gtk-Message: 12:22:32.615: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:82566): Gtk-WARNING **: 12:22:32.692: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 12:22:32.692: Failed to load module "canberra-gtk-module"
+
+(firefox:82566): Gtk-WARNING **: 12:22:32.695: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 12:22:32.695: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702617753392	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702617753502	Marionette	INFO	Listening on port 36511
+Read port: 36511
+1702617753638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702617755951	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702617783399	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702617833751	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702617839074	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702617923923	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702617924845	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618002930	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618003273	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618086037	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618086877	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618168185	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618169209	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618181830	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618182468	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618264240	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618265013	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618342922	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618343647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618495149	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618496013	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702618505171	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618506238	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618517785	Marionette	INFO	Stopped listening on port 36511
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+isMobile@https://cdn.doubleverify.com/dv-measurements5148.js:2:196327
+isAdPercentageCriteriaPassed@https://cdn.doubleverify.com/dv-measurements5148.js:2:164745
+isViewabilityConditionPassed@https://cdn.doubleverify.com/dv-measurements5148.js:2:164371
+handleViewabilityData@https://cdn.doubleverify.com/dv-measurements5148.js:2:161089
+7360/mapToWrapperFunction/</e[t]@https://cdn.doubleverify.com/dv-measurements5148.js:2:217724
+runSafely@https://cdn.doubleverify.com/dv-measurements5148.js:2:218491
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:217581
+publishEvents@https://cdn.doubleverify.com/dv-measurements5148.js:2:217563
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements5148.js:2:215958
+collectViewabilityData@https://cdn.doubleverify.com/dv-measurements5148.js:2:103597
+7360/mapToWrapperFunction/</e[t]@https://cdn.doubleverify.com/dv-measurements5148.js:2:217724
+runSafely@https://cdn.doubleverify.com/dv-measurements5148.js:2:218491
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:217581
+publishEvents@https://cdn.doubleverify.com/dv-measurements5148.js:2:217563
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements5148.js:2:215958
+publishAdViewabilityData@https://cdn.doubleverify.com/dv-measurements5148.js:2:328789
+2478/runSafelyWhenInvoked/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:263601
+
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6739
+
+1702618526328	geckodriver	INFO	Listening on 127.0.0.1:38857
+1702618527300	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJhDkEN"
+Gtk-Message: 12:35:27.321: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:86109): Gtk-WARNING **: 12:35:27.396: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 12:35:27.396: Failed to load module "canberra-gtk-module"
+
+(firefox:86109): Gtk-WARNING **: 12:35:27.398: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 12:35:27.398: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702618528000	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702618528130	Marionette	INFO	Listening on port 43919
+Read port: 43919
+1702618528272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618536223	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: ({})
+1702618550774	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618552413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618552429	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+JavaScript warning: https://thanhnien.vn/the-gioi.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://thanhnien.vn/the-gioi.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702618554409	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 241 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702618558161	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=944284384239-gkj7k3va6o27v2hr43qd1137hl741922.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=lm5wKeWKAQXvkyT9R7zFGQ&is_itp=true&channel_id=63b0c8e346119352be0321cd558824fcc64a7df81627876d94ec6a98c1adc76d&origin=https%3A%2F%2Fthanhnien.vn, line 130: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:130:1230
+nf@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:131:41
+_.N@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:131:158
+Qi@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:197:286
+Ni@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:197:225
+Hi.prototype.I@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:194:66
+Hi/<@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:188:288
+pc@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQo/d=1/rs=AF0KOtVuMfPYi_YUQSUoxWW5trlrsMaUZg/m=credential_server_library:59:473
+
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618563458	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+1702618566769	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618566901	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618567113	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618576278	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618578209	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: ({})
+1702618579009	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618579049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618579199	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618579327	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618589035	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618590371	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: ({})
+1702618590673	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618591857	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6273 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618601392	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618602736	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: ({})
+1702618603267	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618603269	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618603406	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618612784	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+1702618615383	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618625576	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618627016	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618627039	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618629873	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618629893	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22UWvtpV9Zam9JaVI3T213bWRQQ21FQldZUTd2UTVBUGNBZlhDNndyb3lqeWZKR1UxSG96ZGdmQm90JTJCNFJBMzNwNk1jZ09ERk1VSUNNemt2VnNLR083eThCblhsTlhDVmo1M0VWTk1WQVRuQjkwT0NJJTJCcEdhWWNWSUM3VDVzQjJiT1lEOGlTUDdGVW9JVGxid2NtbmUxSTBxbDNnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9168915713088022%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22UWvtpV9Zam9JaVI3T213bWRQQ21FQldZUTd2UTVBUGNBZlhDNndyb3lqeWZKR1UxSG96ZGdmQm90JTJCNFJBMzNwNk1jZ09ERk1VSUNNemt2VnNLR083eThCblhsTlhDVmo1M0VWTk1WQVRuQjkwT0NJJTJCcEdhWWNWSUM3VDVzQjJiT1lEOGlTUDdGVW9JVGxid2NtbmUxSTBxbDNnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9168915713088022%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22UWvtpV9Zam9JaVI3T213bWRQQ21FQldZUTd2UTVBUGNBZlhDNndyb3lqeWZKR1UxSG96ZGdmQm90JTJCNFJBMzNwNk1jZ09ERk1VSUNNemt2VnNLR083eThCblhsTlhDVmo1M0VWTk1WQVRuQjkwT0NJJTJCcEdhWWNWSUM3VDVzQjJiT1lEOGlTUDdGVW9JVGxid2NtbmUxSTBxbDNnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9168915713088022%22}:13:3642
+
+1702618640128	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702618642605	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618642713	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618651456	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618653623	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://static.contineljs.com/core/corecontineljs.js, line 596: TypeError: _admDefault[c] is undefined
+1702618655945	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618655946	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+console.error: ({})
+1702618666598	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702618668274	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618668587	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618669357	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.contineljs.com/core/corecontineljs.js, line 596: TypeError: _admDefault[c] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1868 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6756 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 6598 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618681228	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+1702618683731	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618683792	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1112 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702618684348	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1702618693105	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702618695505	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702618695694	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702618704586	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+1702618705760	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702618705783	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618706859	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7619 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702618716924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702618727628	Marionette	INFO	Stopped listening on port 43919
+JavaScript warning: https://static.sourcetobin.com/cms/Askmy.min.js, line 1: Script terminated by timeout at:
+value/e<@https://static.sourcetobin.com/cms/Askmy.min.js:1:163890
+
+1702622126175	geckodriver	INFO	Listening on 127.0.0.1:41363
+1702622126707	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilec5Kf65"
+Gtk-Message: 13:35:26.727: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:99787): Gtk-WARNING **: 13:35:26.795: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:35:26.795: Failed to load module "canberra-gtk-module"
+
+(firefox:99787): Gtk-WARNING **: 13:35:26.797: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:35:26.797: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702622127589	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702622127706	Marionette	INFO	Listening on port 44233
+Read port: 44233
+1702622127884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1702622131620	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702622158418	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://vtv.vn/chinh-tri.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702622181185	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622182647	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript error: https://static.contineljs.com/player/video.js?rd=1, line 62: ReferenceError: playerInstance is not defined
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+console.error: (new TypeError("toggle is null", "resource://gre/actors/PictureInPictureChild.sys.mjs", 1303))
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702622271404	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622271872	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702622356426	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622356957	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702622444279	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622445027	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702622528552	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622529829	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.contineljs.com/player/video.js?rd=1, line 62: ReferenceError: playerInstance is not defined
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702622556881	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622557576	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.contineljs.com/player/video.js?rd=1, line 62: ReferenceError: playerInstance is not defined
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+3380/extend/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:257031
+extend@https://cdn.doubleverify.com/dv-measurements5148.js:2:257019
+sendMessage@https://cdn.doubleverify.com/dv-measurements5148.js:2:222245
+turnOn@https://cdn.doubleverify.com/dv-measurements5148.js:2:251483
+4342/turnOnScriptDynamicFlag/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:111608
+logPageHideEventNonPersisted@https://cdn.doubleverify.com/dv-measurements5148.js:2:111874
+7360/mapToWrapperFunction/</e[t]@https://cdn.doubleverify.com/dv-measurements5148.js:2:217724
+runSafely@https://cdn.doubleverify.com/dv-measurements5148.js:2:218491
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:217581
+publishEvents@https://cdn.doubleverify.com/dv-measurements5148.js:2:217563
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements5148.js:2:215958
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314089
+
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 12: Script terminated by timeout at:
+b.invert@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:11736
+b.updateContext@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:2978
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8360
+c.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:14:28037
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8379
+c.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:14:28037
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8379
+c.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:14:28037
+b.draw@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:8379
+b.update@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:14512
+b.handleEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:14830
+b._dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:4075
+b._dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:4158
+b.dispatchEvent@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:3479
+a._tick@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:7459
+a._handleTimeout@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:12:6772
+
+1702622638013	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622638755	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702622715601	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622716201	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+n@https://cdn.doubleverify.com/dv-measurements5148.js:2:343512
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314105
+
+1702622795477	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622796388	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.contineljs.com/player/video.js?rd=1, line 62: ReferenceError: playerInstance is not defined
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+k@https://cdn.doubleverify.com/dv-measurements5148.js:2:422653
+1759/</R.getOmidEnvironment@https://cdn.doubleverify.com/dv-measurements5148.js:2:423051
+1759/</Se.prototype.getEnvironment@https://cdn.doubleverify.com/dv-measurements5148.js:2:429108
+1759/</Se.prototype.isSupported@https://cdn.doubleverify.com/dv-measurements5148.js:2:428877
+isSupported@https://cdn.doubleverify.com/dv-measurements5148.js:2:233433
+sendBeacon@https://cdn.doubleverify.com/dv-measurements5148.js:2:178359
+sendDataToServer@https://cdn.doubleverify.com/dv-measurements5148.js:2:226476
+registerEventCall@https://cdn.doubleverify.com/dv-measurements5148.js:2:224142
+sendWaitingMessages@https://cdn.doubleverify.com/dv-measurements5148.js:2:224544
+sendMessage@https://cdn.doubleverify.com/dv-measurements5148.js:2:222398
+logPageHideEventNonPersisted@https://cdn.doubleverify.com/dv-measurements5148.js:2:111737
+7360/mapToWrapperFunction/</e[t]@https://cdn.doubleverify.com/dv-measurements5148.js:2:217724
+runSafely@https://cdn.doubleverify.com/dv-measurements5148.js:2:218491
+7360/publishEvents/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:217581
+publishEvents@https://cdn.doubleverify.com/dv-measurements5148.js:2:217563
+dispatchEvent@https://cdn.doubleverify.com/dv-measurements5148.js:2:215958
+3384/handlePersistedEvent/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:314089
+
+1702622889864	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702622891473	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702622905197	Marionette	INFO	Stopped listening on port 44233
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:15615
+
+JavaScript warning: https://static.mediacdn.vn/vtv/web_js/vtv.suc-khoe.14112023v1.min.js, line 2: Script terminated by timeout at:
+checkRunInit/window.timerRunInit<@https://static.mediacdn.vn/vtv/web_js/vtv.suc-khoe.14112023v1.min.js:2:26629
+
+JavaScript warning: https://cdn.doubleverify.com/dv-measurements5148.js, line 2: Script terminated by timeout at:
+2478/runSafelyWhenInvoked/<@https://cdn.doubleverify.com/dv-measurements5148.js:2:263592
+
+1702622914087	geckodriver	INFO	Listening on 127.0.0.1:44467
+1702622914850	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJPTN6e"
+Gtk-Message: 13:48:34.870: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:104118): Gtk-WARNING **: 13:48:34.939: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:48:34.939: Failed to load module "canberra-gtk-module"
+
+(firefox:104118): Gtk-WARNING **: 13:48:34.940: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:48:34.940: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702622915606	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702622915718	Marionette	INFO	Listening on port 43431
+Read port: 43431
+1702622915859	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+console.error: ({})
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702622946932	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702622958518	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://thanhnien.vn/thoi-su.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://thanhnien.vn/thoi-su.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://thanhnien.vn/thoi-su.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://thanhnien.vn/thoi-su.htm line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=944284384239-gkj7k3va6o27v2hr43qd1137hl741922.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=nCRovIPH%2FfQ%2FetzYIxVInw&is_itp=true&channel_id=374e0b24a221a74beb518737966bf619fc60833e9546da9df4590c6dc51b71b0&origin=https%3A%2F%2Fthanhnien.vn, line 56: Script terminated by timeout at:
+Xb@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQoCA/d=1/rs=AF0KOtXROZf2Yn7uv9MGGYPWrx6nNw5yVw/m=credential_server_library:56:448
+pc@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQoCA/d=1/rs=AF0KOtXROZf2Yn7uv9MGGYPWrx6nNw5yVw/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQoCA/d=1/rs=AF0KOtXROZf2Yn7uv9MGGYPWrx6nNw5yVw/m=credential_server_library:59:473
+
+1702623025322	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623026445	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623026481	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3895 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22cUDGHV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbURvck5uZ1Y0THRESlpsTVBIV2dBRDNSZUlpMkZxc01uSFNqbXJCdGRvVVNSRzBQcTVnNzJVUG1aSkFQUVpiMWZCMm5FM1dUQktnaVRWdEh0ckFid29nd2VsRGRxZEJuMjRsdTIlMkJqa1JhRWg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.27253905611651597%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22cUDGHV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbURvck5uZ1Y0THRESlpsTVBIV2dBRDNSZUlpMkZxc01uSFNqbXJCdGRvVVNSRzBQcTVnNzJVUG1aSkFQUVpiMWZCMm5FM1dUQktnaVRWdEh0ckFid29nd2VsRGRxZEJuMjRsdTIlMkJqa1JhRWg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.27253905611651597%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22cUDGHV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbURvck5uZ1Y0THRESlpsTVBIV2dBRDNSZUlpMkZxc01uSFNqbXJCdGRvVVNSRzBQcTVnNzJVUG1aSkFQUVpiMWZCMm5FM1dUQktnaVRWdEh0ckFid29nd2VsRGRxZEJuMjRsdTIlMkJqa1JhRWg%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.27253905611651597%22}:13:3642
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=944284384239-gkj7k3va6o27v2hr43qd1137hl741922.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=1CIT1GDuso9N%2BKN2PVILnQ&is_itp=true&channel_id=a90e9360d1e9e980d8a2e4cacc8cf643bf3cfa670e960434adbabcdabfe6315b&origin=https%3A%2F%2Fthanhnien.vn, line 54: Script terminated by timeout at:
+Ub@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ6/d=1/rs=AF0KOtVQtWmgNbtPJI9jDXSnAjRg_gtO2g/m=credential_server_library:54:2103
+Xb@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ6/d=1/rs=AF0KOtVQtWmgNbtPJI9jDXSnAjRg_gtO2g/m=credential_server_library:54:2505
+pc@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ6/d=1/rs=AF0KOtVQtWmgNbtPJI9jDXSnAjRg_gtO2g/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ6/d=1/rs=AF0KOtVQtWmgNbtPJI9jDXSnAjRg_gtO2g/m=credential_server_library:59:473
+
+1702623039486	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623041105	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623041123	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623043565	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://optimize.urekamedia.com/optimizes.js?b=2825850, line 68: unreachable code after return statement
+JavaScript warning: https://openfpcdn.io/fingerprintjs/v3, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7275 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224bh33l9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtkcmJSbGtjb1VFbU1mVlVUJTJGN0lUTHB6d1ZlR2loV3plbXV6blV2JTJCcDVmYVFCUVIlMkJXaDU4a0E2NkU3dCUyRlJ1ZkpBa0ZKdzhYbDd5SG5Jd0NWMElSJTJGeiUyRmRNRnNraVBvdEJrb3RhckdvMURr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.696998873986533%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224bh33l9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtkcmJSbGtjb1VFbU1mVlVUJTJGN0lUTHB6d1ZlR2loV3plbXV6blV2JTJCcDVmYVFCUVIlMkJXaDU4a0E2NkU3dCUyRlJ1ZkpBa0ZKdzhYbDd5SG5Jd0NWMElSJTJGeiUyRmRNRnNraVBvdEJrb3RhckdvMURr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.696998873986533%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224bh33l9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtkcmJSbGtjb1VFbU1mVlVUJTJGN0lUTHB6d1ZlR2loV3plbXV6blV2JTJCcDVmYVFCUVIlMkJXaDU4a0E2NkU3dCUyRlJ1ZkpBa0ZKdzhYbDd5SG5Jd0NWMElSJTJGeiUyRmRNRnNraVBvdEJrb3RhckdvMURr%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.696998873986533%22}:13:3642
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=944284384239-gkj7k3va6o27v2hr43qd1137hl741922.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=R9FRqIESrsZTkWzYD3CIGw&is_itp=true&channel_id=4707a1b200227b5a506dffe25db7609e1e3eb3f36ee60e4e27dd189b2933be10&origin=https%3A%2F%2Fthanhnien.vn, line 167: Script terminated by timeout at:
+rh@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:167:361
+_.uh@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:168:60
+Oi@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:196:201
+Li@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:196:22
+Hi.prototype.I@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:195:100
+Hi/<@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:189:288
+pc@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABQ4/d=1/rs=AF0KOtWFomx_WxwPWnJSMpWj7K0YaurlAA/m=credential_server_library:59:473
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:9698
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:9870
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:14168
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:11098
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1702623057376	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623059545	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623060535	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623060656	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623060856	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623060902	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+console.error: ({})
+1702623070097	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623073195	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2916 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497, line 1: Script terminated by timeout at:
+F@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:9698
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:9870
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:14168
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158497:1:11098
+
+1702623081747	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623084323	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623084985	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1271 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702623085117	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=944284384239-gkj7k3va6o27v2hr43qd1137hl741922.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=bFRczQvDQn35Wo3DEdl2ng&is_itp=true&channel_id=9ee6737f39cec57591df2b007a20a059c379c2898d16be60d46cfa8b58f3741c&origin=https%3A%2F%2Fthanhnien.vn, line 196: Script terminated by timeout at:
+Hi.prototype.flush@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABRq/d=1/rs=AF0KOtVBN9h6uYJB-4oYx8_NJVGBFGe2Rg/m=credential_server_library:196:36
+Hi.prototype.I@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABRq/d=1/rs=AF0KOtVBN9h6uYJB-4oYx8_NJVGBFGe2Rg/m=credential_server_library:196:115
+Hi/<@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABRq/d=1/rs=AF0KOtVBN9h6uYJB-4oYx8_NJVGBFGe2Rg/m=credential_server_library:190:288
+pc@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABRq/d=1/rs=AF0KOtVBN9h6uYJB-4oYx8_NJVGBFGe2Rg/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.vi.Xr9XBxkEc9M.O/am=ABRq/d=1/rs=AF0KOtVBN9h6uYJB-4oYx8_NJVGBFGe2Rg/m=credential_server_library:59:473
+
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623094108	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 740 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7073 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7249 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7488 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1702623106681	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623108021	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623108046	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623109793	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623109874	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623118990	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623122036	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623130662	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623132764	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript error: https://static.contineljs.com/core/corecontineljs.js, line 596: TypeError: _admDefault[c] is undefined
+console.error: ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 4190 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5454 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22aqAjlF9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtWeWN6eGkyS3RLSkVDRXExRmNidHFGV2ZEY1d1TnM0JTJGWXBHeTZRamVLNm0xeGRQaG8lMkIySlZKcktnU2NlJTJGUUhjVlZHSWFOV2ZNczhHMGhiRXdnYWZidm5NSzRhb2w4SnZkVjBod1VYcXVwUDFmR3k0Mlg0Vm5CYmg2T1NiN0dRdyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9189983497003122%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22aqAjlF9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtWeWN6eGkyS3RLSkVDRXExRmNidHFGV2ZEY1d1TnM0JTJGWXBHeTZRamVLNm0xeGRQaG8lMkIySlZKcktnU2NlJTJGUUhjVlZHSWFOV2ZNczhHMGhiRXdnYWZidm5NSzRhb2w4SnZkVjBod1VYcXVwUDFmR3k0Mlg0Vm5CYmg2T1NiN0dRdyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9189983497003122%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22aqAjlF9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbUtWeWN6eGkyS3RLSkVDRXExRmNidHFGV2ZEY1d1TnM0JTJGWXBHeTZRamVLNm0xeGRQaG8lMkIySlZKcktnU2NlJTJGUUhjVlZHSWFOV2ZNczhHMGhiRXdnYWZidm5NSzRhb2w4SnZkVjBod1VYcXVwUDFmR3k0Mlg0Vm5CYmg2T1NiN0dRdyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9189983497003122%22}:13:3642
+
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+1702623146299	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623148050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623148074	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623149332	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://static.contineljs.com/core/corecontineljs.js, line 596: TypeError: _admDefault[c] is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2783 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1702623159386	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623161081	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1702623161105	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623162310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 673 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702623171812	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623174546	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623174797	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1702623183425	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: ServiceWorker script at https://thanhnien.vn/anymind-sw.js for scope https://thanhnien.vn/ encountered an error during installation.
+console.error: ({})
+1702623186972	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2436 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224beMwV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbU9YdVRGWDRwZHcxTVF0aWM5dHVQcjhUQjFQUVNKZUd6dWcxQmU5JTJGMTh3V3pZVTZnN3hiQ0N3MEtEc05yNmJkJTJCNnVaTXBEU0x4NmllSG0ydEs3UzhxTHNYV2JSJTJCYnlrWCUyQmRRWWEzdDQ4VlVaWnhjUTNiVEVENjVJWVYyWWs2SEVBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3858117329688069%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224beMwV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbU9YdVRGWDRwZHcxTVF0aWM5dHVQcjhUQjFQUVNKZUd6dWcxQmU5JTJGMTh3V3pZVTZnN3hiQ0N3MEtEc05yNmJkJTJCNnVaTXBEU0x4NmllSG0ydEs3UzhxTHNYV2JSJTJCYnlrWCUyQmRRWWEzdDQ4VlVaWnhjUTNiVEVENjVJWVYyWWs2SEVBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3858117329688069%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=thanhnien.vn#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%224beMwV9IYTNWZUlSakpaNkFyaVAlMkI1YWpNbU9YdVRGWDRwZHcxTVF0aWM5dHVQcjhUQjFQUVNKZUd6dWcxQmU5JTJGMTh3V3pZVTZnN3hiQ0N3MEtEc05yNmJkJTJCNnVaTXBEU0x4NmllSG0ydEs3UzhxTHNYV2JSJTJCYnlrWCUyQmRRWWEzdDQ4VlVaWnhjUTNiVEVENjVJWVYyWWs2SEVBJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22thanhnien.vn%22,%22topUrl%22:%22thanhnien.vn%22,%22version%22:145,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.3858117329688069%22}:13:3642
+
+1702623197949	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1702623208464	Marionette	INFO	Stopped listening on port 43431
+JavaScript warning: https://cdnstoremedia.com/core/1.0.0/createjs_min.js, line 13: Script terminated by timeout at:
+b.enableMouseOver/this._mouseOverIntervalID<@https://cdnstoremedia.com/core/1.0.0/createjs_min.js:13:15615
+
+JavaScript warning: https://cdn.onthe.io/io.js/Et5BLNwqiW2L, line 1: Script terminated by timeout at:
+n.setIntervalSafe/e.helpers<@https://cdn.onthe.io/io.js/Et5BLNwqiW2L:1:5413
+
+1702623222829	geckodriver	INFO	Listening on 127.0.0.1:50155
+1702623222997	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1zKihH"
+Gtk-Message: 13:53:43.016: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+
+(firefox:111658): Gtk-WARNING **: 13:53:43.068: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:53:43.068: Failed to load module "canberra-gtk-module"
+
+(firefox:111658): Gtk-WARNING **: 13:53:43.069: GTK+ module /snap/firefox/3358/gnome-platform/usr/lib/gtk-2.0/modules/libcanberra-gtk-module.so cannot be loaded.
+GTK+ 2.x symbols detected. Using GTK+ 2.x and GTK+ 3 in the same process is not supported.
+Gtk-Message: 13:53:43.069: Failed to load module "canberra-gtk-module"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702623223611	Marionette	INFO	Marionette enabled
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702623223717	Marionette	INFO	Listening on port 32941
+Read port: 32941
+1702623223850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+libva info: VA-API version 1.20.0
+libva info: Trying to open /snap/firefox/3358/gnome-platform/usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+libva info: Found init function __vaDriverInit_1_20
+libva info: va_openDriver() returns 0
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5340 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 69: Script terminated by timeout at:
+I@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:69:792
+J@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:391
+Vc@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:87:945
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:116:513
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+xd.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:97:1267
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+n.ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:98:367
+Wc.prototype.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:87:1342
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Jh/c/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:320
+Ua@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:339
+Ra.prototype.flush@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:44:127
+Ta@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:466
+Jh/c/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:148:292
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+Sg/</</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:237
+Qa.prototype.Zb/<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:43:298
+Sg/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:134:246
+n.Id@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:75:425
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:74:439
+n.o@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:223
+n.next@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:72:859
+nd/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:93:671
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9433957866792676%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9433957866792676%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22origin%22:0},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9433957866792676%22}:13:3642
+
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1702623254038	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7338 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fvTNV19NS2diWHEzdnJ3cXVlV0NjTXlyWHBIQ1hzUU1qQWlybFFtSW1SQWx1UU9BJTJGeEZvSFdvVGcyRTNQcnolMkI4UE1ha3ZGYnZNSVhxRWtaaXl0cllxaTluakhxTVYxR09PQkNCeWlzcDZOeEp3cjRIaGN5elRlQ3cwNWIxalExdE9RWFdHQlBxc3Y2eFp0Wm4yUUlESlptJTJGRHclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.07437003186338209%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fvTNV19NS2diWHEzdnJ3cXVlV0NjTXlyWHBIQ1hzUU1qQWlybFFtSW1SQWx1UU9BJTJGeEZvSFdvVGcyRTNQcnolMkI4UE1ha3ZGYnZNSVhxRWtaaXl0cllxaTluakhxTVYxR09PQkNCeWlzcDZOeEp3cjRIaGN5elRlQ3cwNWIxalExdE9RWFdHQlBxc3Y2eFp0Wm4yUUlESlptJTJGRHclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.07437003186338209%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22fvTNV19NS2diWHEzdnJ3cXVlV0NjTXlyWHBIQ1hzUU1qQWlybFFtSW1SQWx1UU9BJTJGeEZvSFdvVGcyRTNQcnolMkI4UE1ha3ZGYnZNSVhxRWtaaXl0cllxaTluakhxTVYxR09PQkNCeWlzcDZOeEp3cjRIaGN5elRlQ3cwNWIxalExdE9RWFdHQlBxc3Y2eFp0Wm4yUUlESlptJTJGRHclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.07437003186338209%22}:13:3642
+
+JavaScript warning: https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158804, line 1: Script terminated by timeout at:
+q@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158804:1:9870
+J@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158804:1:14168
+x@https://ads.pubmatic.com/AdServer/js/user_sync.html?kdntuid=1&p=158804:1:11098
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 904 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 4487 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22qXloe19NS2diWHEzdnJ3cXVlV0NjTXlyWHBOMWw3MWJDc2FmWE8zd3JOY21yOTNtQk1GM2tBYjlpdzZYc0xMNGp6VWFwa1N3MlExdSUyQjBaMnFzRlNncHp4WkRaQXhBJTJCOTFkeHVyeUdnUHZJbHRzeVplMXZxJTJCNmxiZkp3V0pleFRqVHNyVWdGcjNLTjRTYlp1VDliS3FuMXlzOUElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8437608195877946%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22qXloe19NS2diWHEzdnJ3cXVlV0NjTXlyWHBOMWw3MWJDc2FmWE8zd3JOY21yOTNtQk1GM2tBYjlpdzZYc0xMNGp6VWFwa1N3MlExdSUyQjBaMnFzRlNncHp4WkRaQXhBJTJCOTFkeHVyeUdnUHZJbHRzeVplMXZxJTJCNmxiZkp3V0pleFRqVHNyVWdGcjNLTjRTYlp1VDliS3FuMXlzOUElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8437608195877946%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22qXloe19NS2diWHEzdnJ3cXVlV0NjTXlyWHBOMWw3MWJDc2FmWE8zd3JOY21yOTNtQk1GM2tBYjlpdzZYc0xMNGp6VWFwa1N3MlExdSUyQjBaMnFzRlNncHp4WkRaQXhBJTJCOTFkeHVyeUdnUHZJbHRzeVplMXZxJTJCNmxiZkp3V0pleFRqVHNyVWdGcjNLTjRTYlp1VDliS3FuMXlzOUElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.8437608195877946%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2130 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2191 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 159 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2156 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22q8H9P19NS2diWHEzdnJ3cXVlV0NjTXlyWHBPZCUyQjdzYlZRQXU4MWhhQndVbENCSVRnOCUyQlJKRTJBalQ5d01zS01CeUtzSDFPSGZpVnFES3RvejV5JTJCUHZXTDFkWk9rZFUwNTJ6MG9Qd1kzNjVRVHhsUmxjZWhPRm52TTIlMkZCYkgxbUtER2R5JTJCJTJGZm1DRlNwYUw0ejU5OGJ0dmFEcFElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6226988713388221%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22q8H9P19NS2diWHEzdnJ3cXVlV0NjTXlyWHBPZCUyQjdzYlZRQXU4MWhhQndVbENCSVRnOCUyQlJKRTJBalQ5d01zS01CeUtzSDFPSGZpVnFES3RvejV5JTJCUHZXTDFkWk9rZFUwNTJ6MG9Qd1kzNjVRVHhsUmxjZWhPRm52TTIlMkZCYkgxbUtER2R5JTJCJTJGZm1DRlNwYUw0ejU5OGJ0dmFEcFElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6226988713388221%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22q8H9P19NS2diWHEzdnJ3cXVlV0NjTXlyWHBPZCUyQjdzYlZRQXU4MWhhQndVbENCSVRnOCUyQlJKRTJBalQ5d01zS01CeUtzSDFPSGZpVnFES3RvejV5JTJCUHZXTDFkWk9rZFUwNTJ6MG9Qd1kzNjVRVHhsUmxjZWhPRm52TTIlMkZCYkgxbUtER2R5JTJCJTJGZm1DRlNwYUw0ejU5OGJ0dmFEcFElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6226988713388221%22}:13:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2441 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c, line 470: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:412
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1345 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22jw7rGl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBEa0MlMkZvVlZnYkdaZGdQMVI3UmpBNkFYYko5JTJGbW5TRiUyRlY3SE5tQ2VLN2c2UmNDY3pkVEdOT2xJSDlpVmdSUGJhc0xkWExmTFglMkJ4TEJTd0NQZ1NBWCUyRmN0NERaQmJVQ0xlOEFlbjNXV2hFMmhPZmVNcW4xTFcwbFhRRmx5VlF3enJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5762468714284388%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22jw7rGl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBEa0MlMkZvVlZnYkdaZGdQMVI3UmpBNkFYYko5JTJGbW5TRiUyRlY3SE5tQ2VLN2c2UmNDY3pkVEdOT2xJSDlpVmdSUGJhc0xkWExmTFglMkJ4TEJTd0NQZ1NBWCUyRmN0NERaQmJVQ0xlOEFlbjNXV2hFMmhPZmVNcW4xTFcwbFhRRmx5VlF3enJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5762468714284388%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22jw7rGl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBEa0MlMkZvVlZnYkdaZGdQMVI3UmpBNkFYYko5JTJGbW5TRiUyRlY3SE5tQ2VLN2c2UmNDY3pkVEdOT2xJSDlpVmdSUGJhc0xkWExmTFglMkJ4TEJTd0NQZ1NBWCUyRmN0NERaQmJVQ0xlOEFlbjNXV2hFMmhPZmVNcW4xTFcwbFhRRmx5VlF3enJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5762468714284388%22}:13:3642
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22osHB0F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMQk51cGFRWWhSdCUyRmw4ZGw4ZWV0NnM4eW95OGl4JTJCMEdCQXVLZGxmJTJGd0dwRjN5SFBRNHlVN1hzd2sxdFg4Y2lMcVJOeE94ZndPemlIS05oak80YVFmekhCRCUyQjFEV0NmcWd0RWhEdmF0cTlwcHFUSVdveWw0dWo3OEsxZWFCZ1VrZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9374530697086368%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22osHB0F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMQk51cGFRWWhSdCUyRmw4ZGw4ZWV0NnM4eW95OGl4JTJCMEdCQXVLZGxmJTJGd0dwRjN5SFBRNHlVN1hzd2sxdFg4Y2lMcVJOeE94ZndPemlIS05oak80YVFmekhCRCUyQjFEV0NmcWd0RWhEdmF0cTlwcHFUSVdveWw0dWo3OEsxZWFCZ1VrZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9374530697086368%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22osHB0F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMQk51cGFRWWhSdCUyRmw4ZGw4ZWV0NnM4eW95OGl4JTJCMEdCQXVLZGxmJTJGd0dwRjN5SFBRNHlVN1hzd2sxdFg4Y2lMcVJOeE94ZndPemlIS05oak80YVFmekhCRCUyQjFEV0NmcWd0RWhEdmF0cTlwcHFUSVdveWw0dWo3OEsxZWFCZ1VrZyUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.9374530697086368%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7006 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22dGuRrF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYTBpM1hCNG5Ib2JkYlNBVEF3Z3hhcEpMQU5NQ1dadmg2MSUyRlBncEVsSk5UUmo5VThUa3ZVcjlRVTkzMTBDeU10MjZOJTJCRW95TWlZa291QmFSeTVjM0VyS0N4dHltNEVaMGUlMkJIaHMlMkZoJTJGZ2REbEIwUmhXUzlHJTJGbDdUeE9HNWRHQ1ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.33199663384884726%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22dGuRrF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYTBpM1hCNG5Ib2JkYlNBVEF3Z3hhcEpMQU5NQ1dadmg2MSUyRlBncEVsSk5UUmo5VThUa3ZVcjlRVTkzMTBDeU10MjZOJTJCRW95TWlZa291QmFSeTVjM0VyS0N4dHltNEVaMGUlMkJIaHMlMkZoJTJGZ2REbEIwUmhXUzlHJTJGbDdUeE9HNWRHQ1ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.33199663384884726%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22dGuRrF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYTBpM1hCNG5Ib2JkYlNBVEF3Z3hhcEpMQU5NQ1dadmg2MSUyRlBncEVsSk5UUmo5VThUa3ZVcjlRVTkzMTBDeU10MjZOJTJCRW95TWlZa291QmFSeTVjM0VyS0N4dHltNEVaMGUlMkJIaHMlMkZoJTJGZ2REbEIwUmhXUzlHJTJGbDdUeE9HNWRHQ1ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.33199663384884726%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2776 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Ww8HLF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBBN1hDWXpQOW1pQk9RWGFvTFpGOEZGa0RyNlRwTGJPenB1NlRIa01aaWhFSyUyRjY2djVVemslMkZTM3Q5MFVuTHF1RFJ4aVNpSVlxQUsxbXBTNjM4NUswZm5WTkFBJTJGdkNJbDJKSHZEeDVHUFp1NDY4VXI3Zk5IQ0NBMHp3S1ZNQ1RyN0ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.027558604661788944%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Ww8HLF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBBN1hDWXpQOW1pQk9RWGFvTFpGOEZGa0RyNlRwTGJPenB1NlRIa01aaWhFSyUyRjY2djVVemslMkZTM3Q5MFVuTHF1RFJ4aVNpSVlxQUsxbXBTNjM4NUswZm5WTkFBJTJGdkNJbDJKSHZEeDVHUFp1NDY4VXI3Zk5IQ0NBMHp3S1ZNQ1RyN0ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.027558604661788944%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22Ww8HLF9NS2diWHEzdnJ3cXVlV0NjTXlyWHBBN1hDWXpQOW1pQk9RWGFvTFpGOEZGa0RyNlRwTGJPenB1NlRIa01aaWhFSyUyRjY2djVVemslMkZTM3Q5MFVuTHF1RFJ4aVNpSVlxQUsxbXBTNjM4NUswZm5WTkFBJTJGdkNJbDJKSHZEeDVHUFp1NDY4VXI3Zk5IQ0NBMHp3S1ZNQ1RyN0ElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.027558604661788944%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2076 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c, line 470: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:412
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22c2hl4F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYklMVldlUXhLWW9GcVZrU3JrcW9mTnhneDhKM2pxQThNbjFyZ2pueGdVOWZqQ0lsSXd2TyUyRlVqN1FSdXM2ODh0VUJKUTdDa1BiQk5hbHZvdEViQVJkUFRsd3hhVzFwVEVPeGxIako4dTZjMDVpZTRzMkI1Vk4lMkI2QzY2Szl1QVJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5451095593831065%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22c2hl4F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYklMVldlUXhLWW9GcVZrU3JrcW9mTnhneDhKM2pxQThNbjFyZ2pueGdVOWZqQ0lsSXd2TyUyRlVqN1FSdXM2ODh0VUJKUTdDa1BiQk5hbHZvdEViQVJkUFRsd3hhVzFwVEVPeGxIako4dTZjMDVpZTRzMkI1Vk4lMkI2QzY2Szl1QVJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5451095593831065%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22c2hl4F9NS2diWHEzdnJ3cXVlV0NjTXlyWHBQYklMVldlUXhLWW9GcVZrU3JrcW9mTnhneDhKM2pxQThNbjFyZ2pueGdVOWZqQ0lsSXd2TyUyRlVqN1FSdXM2ODh0VUJKUTdDa1BiQk5hbHZvdEViQVJkUFRsd3hhVzFwVEVPeGxIako4dTZjMDVpZTRzMkI1Vk4lMkI2QzY2Szl1QVJnJTNEJTNE%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.5451095593831065%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 7132 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5571 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914, line 70: Script terminated by timeout at:
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:358
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+fn/</</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:237:2340
+fn/</<@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:237:2306
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:264
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+n.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:73:177
+I.prototype.unsubscribe@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:70:392
+Fc.prototype.Ha@https://www.googletagservices.com/activeview/js/current/ufs_web_display.js?cache=r20110914:83:196
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22oyxzy19NS2diWHEzdnJ3cXVlV0NjTXlyWHBHczJoT0xaQlElMkZqcWdtQXAlMkZ2YU1LRWZJOFVlTXhaSVBOMDVjMXhjNm9yRG1KZUw2MzBiMVF4VEZaOURHSjNlMUhJVUdTeHZvTWhvdzk3SUs5JTJGRjdGYnQ2YUx2ZURndFJFc0s4VkNBNmpmYWhrRGQ1ZUxLbWclMkJVbE5hNUI2UHVFQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.12780315282651855%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22oyxzy19NS2diWHEzdnJ3cXVlV0NjTXlyWHBHczJoT0xaQlElMkZqcWdtQXAlMkZ2YU1LRWZJOFVlTXhaSVBOMDVjMXhjNm9yRG1KZUw2MzBiMVF4VEZaOURHSjNlMUhJVUdTeHZvTWhvdzk3SUs5JTJGRjdGYnQ2YUx2ZURndFJFc0s4VkNBNmpmYWhrRGQ1ZUxLbWclMkJVbE5hNUI2UHVFQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.12780315282651855%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22oyxzy19NS2diWHEzdnJ3cXVlV0NjTXlyWHBHczJoT0xaQlElMkZqcWdtQXAlMkZ2YU1LRWZJOFVlTXhaSVBOMDVjMXhjNm9yRG1KZUw2MzBiMVF4VEZaOURHSjNlMUhJVUdTeHZvTWhvdzk3SUs5JTJGRjdGYnQ2YUx2ZURndFJFc0s4VkNBNmpmYWhrRGQ1ZUxLbWclMkJVbE5hNUI2UHVFQSUzRCUzRA%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.12780315282651855%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 2129 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22P14o5V9NS2diWHEzdnJ3cXVlV0NjTXlyWHBHR01SdHpWODhOMExYWVR1JTJCdWtKdjFnZWNqRE96ZmRhZjVFdEQlMkJ1U24wYnpzT3ZQR2NWckFRcll4allNWWRhREVYQTZBT0NQQ25GajBwTlloazJnV1pMOHBGYlVYbSUyRkJpcGN0MGdBUHlrcGhUM0FEQ3ZKT05FbTZOZmlvejl2elElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6385154110546246%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22P14o5V9NS2diWHEzdnJ3cXVlV0NjTXlyWHBHR01SdHpWODhOMExYWVR1JTJCdWtKdjFnZWNqRE96ZmRhZjVFdEQlMkJ1U24wYnpzT3ZQR2NWckFRcll4allNWWRhREVYQTZBT0NQQ25GajBwTlloazJnV1pMOHBGYlVYbSUyRkJpcGN0MGdBUHlrcGhUM0FEQ3ZKT05FbTZOZmlvejl2elElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6385154110546246%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22P14o5V9NS2diWHEzdnJ3cXVlV0NjTXlyWHBHR01SdHpWODhOMExYWVR1JTJCdWtKdjFnZWNqRE96ZmRhZjVFdEQlMkJ1U24wYnpzT3ZQR2NWckFRcll4allNWWRhREVYQTZBT0NQQ25GajBwTlloazJnV1pMOHBGYlVYbSUyRkJpcGN0MGdBUHlrcGhUM0FEQ3ZKT05FbTZOZmlvejl2elElM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.6385154110546246%22}:13:3642
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c, line 470: Script terminated by timeout at:
+aa.wh@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:470:89
+get@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:87
+aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-R5YVD5J7TV&l=dataLayer&cx=c:468:412
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22IuLIwl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMR1VYclpRMFRJMU9hTyUyQmRIcHJCV29NY0tndVBmcjhQTTlTV2FKbSUyRjJTT0UwSHJvcGVzQmpaeTRBemFXU0hrWEJCYkVIdXYlMkZDZWlYJTJCaiUyQlNVMGppTDVSZ05tQWlPTDV1ZnhqNUQ1eGxSTlhVTmd3bFJqJTJGMTRtV3hPZjIzOVJxUGclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.20753256008140808%22}, line 13: Script terminated by timeout at:
+r.prototype.flushEventQueue@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22IuLIwl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMR1VYclpRMFRJMU9hTyUyQmRIcHJCV29NY0tndVBmcjhQTTlTV2FKbSUyRjJTT0UwSHJvcGVzQmpaeTRBemFXU0hrWEJCYkVIdXYlMkZDZWlYJTJCaiUyQlNVMGppTDVSZ05tQWlPTDV1ZnhqNUQ1eGxSTlhVTmd3bFJqJTJGMTRtV3hPZjIzOVJxUGclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.20753256008140808%22}:13:3137
+r/<@https://gum.criteo.com/syncframe?origin=publishertag&topUrl=vnexpress.net#{%22uid%22:{%22origin%22:0},%22lwid%22:{%22origin%22:0},%22bundle%22:{%22value%22:%22IuLIwl9NS2diWHEzdnJ3cXVlV0NjTXlyWHBMR1VYclpRMFRJMU9hTyUyQmRIcHJCV29NY0tndVBmcjhQTTlTV2FKbSUyRjJTT0UwSHJvcGVzQmpaeTRBemFXU0hrWEJCYkVIdXYlMkZDZWlYJTJCaiUyQlNVMGppTDVSZ05tQWlPTDV1ZnhqNUQ1eGxSTlhVTmd3bFJqJTJGMTRtV3hPZjIzOVJxUGclM0QlM0Q%22,%22origin%22:3},%22optout%22:{%22value%22:false,%22origin%22:0},%22sid%22:{%22origin%22:0},%22tld%22:%22vnexpress.net%22,%22topUrl%22:%22vnexpress.net%22,%22version%22:139,%22cw%22:true,%22lsw%22:true,%22origin%22:%22publishertag%22,%22requestId%22:%220.20753256008140808%22}:13:3642
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 5247 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 1265 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Dtt_-LR3WxpzwV0Gscftq1A_D1owstvxoTnWWhwY4Ow.js line 2 > eval line 3833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1702623460821	Marionette	INFO	Stopped listening on port 32941
