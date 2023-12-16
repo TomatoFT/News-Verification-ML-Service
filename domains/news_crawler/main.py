@@ -1,10 +1,9 @@
+import csv
+import os
 from typing import Any
 
 from unverified import DKNNewsLink, LuatKhoaLink, NgoisaoLink
 from verified import ThanhNienNewsLinks, VnExpressNewsLink, VTVNewsLinks
-
-import os
-import csv
 
 
 class LinkCrawler:
