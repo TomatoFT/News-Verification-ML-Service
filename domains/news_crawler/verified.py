@@ -1,6 +1,7 @@
-from base_get_link import BaseNewsLinks
+from base_get_link import BaseBS4NewsLinks, BaseSeleniumNewsLinks
 
-class VTVNewsLinks(BaseNewsLinks):
+
+class VTVNewsLinks(BaseSeleniumNewsLinks):
     source = 'https://vtv.vn/' 
     format_category_urls = [
                     'chinh-tri.htm',
@@ -17,8 +18,9 @@ class VTVNewsLinks(BaseNewsLinks):
                     ]
     unformat_category_urls = ['https://suckhoe.vtv.vn/']
     news_pos = 4
+    name = 'VTV'
 
-class ThanhNienNewsLinks(BaseNewsLinks):
+class ThanhNienNewsLinks(BaseSeleniumNewsLinks):
     source = 'https://thanhnien.vn/' 
     format_category_urls = [
                     'thoi-su.htm',
@@ -39,8 +41,9 @@ class ThanhNienNewsLinks(BaseNewsLinks):
                     ]
     unformat_category_urls = ['']
     news_pos = 3
+    name = 'Thanh_Nien'
 
-class VnExpressNewsLink(BaseNewsLinks):
+class VnExpressNewsLink(BaseBS4NewsLinks):
     source = 'https://vnexpress.net/'
     format_category_urls = ['thoi-su', 'goc-nhin', 'the-gioi', 'kinh-doanh', 
                             'bat-dong-san', 'khoa-hoc', 'giai-tri', 'the-thao', 'phap-luat'
@@ -48,3 +51,5 @@ class VnExpressNewsLink(BaseNewsLinks):
                             'so-hoa', 'xe', 'y-kien', 'tam-su', 'thu-gian']
     unformat_category_urls = ['']
     news_pos = 3
+    name = 'VnExpress'
+
