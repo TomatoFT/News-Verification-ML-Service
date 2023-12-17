@@ -54,14 +54,14 @@ class CombineCSV:
 
 
 
-# link_crawler = LinkCrawler(sources=[
-#                                     VTVNewsLinks, 
-#                                     ThanhNienNewsLinks, 
-#                                     VnExpressNewsLink, 
-#                                     NgoisaoLink, 
-#                                     DKNNewsLink,
-#                                     LuatKhoaLink
-#                                     ])()
+link_crawler = LinkCrawler(sources=[
+                                    VTVNewsLinks, 
+                                    ThanhNienNewsLinks, 
+                                    VnExpressNewsLink, 
+                                    NgoisaoLink, 
+                                    DKNNewsLink,
+                                    LuatKhoaLink
+                                    ])()
 
 
 # Specify the directory containing CSV files and the output file name

@@ -24,8 +24,8 @@ producer = server.get_producer(name="producer-1")
 # Forever loop
 while True:
     # Task details
-    if count_data() > 4:
-        task = "Retrain model"
+    # if count_data() > 4:
+    #     task = "Retrain model"
 
     # # Produce the task message
     # producer.produce(topic, value=str(task).encode("utf-8"))

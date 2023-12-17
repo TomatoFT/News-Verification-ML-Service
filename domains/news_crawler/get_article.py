@@ -1,27 +1,38 @@
 from typing import Any
-from newspaper import Article
+
+from newspaper import Article, ArticleException
+
 
 class GetArticle:
     def __init__(self, url) -> None:
         self.url = url
         self.article = Article(url)
+        self.title = None
+        self.authors = None
+        self.publish_date = None
+        self.content = None
     
     def __call__(self) -> Any:
-        self.article.download()
-        self.article.parse()
+        try:
+            self.article.download()
+            self.article.parse()
+            self.title = self.article.title
+            self.authors = self.article.authors
+            self.publish_date = self.article.publish_date
+            self.content = self.article.text
+        except ArticleException as e:
+            print(f"Error processing URL {self.url}: {e}")
+
         return self
 
-    def url(self):
-        return self.url
-    
     def get_title(self):
-        return self.article.title
+        return self.title
     
     def get_authors(self):
-        return self.article.authors
+        return self.authors
     
     def get_publish_date(self):
-        return self.article.publish_date
+        return self.publish_date
     
     def get_content(self):
-        return self.article.text
+        return self.content
