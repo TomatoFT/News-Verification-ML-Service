@@ -48,32 +48,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-
-  function sendDataToServer(data) {
+  async function sendDataToServer(data) {
     showLoading(); // Show loading overlay before sending data
   
-    // Manually construct the URL with encoded parameters
-    const encodedParams = Object.entries(data)
-      .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
-      .join('&');
+    const apiUrl = 'http://localhost:4003/news/collect';
+    const params = new URLSearchParams(data);
+    const urlWithParams = `${apiUrl}?${params.toString()}`;
   
-    // Send data to your local server with URL parameters
-    fetch(`http://localhost:4003/news/collect?${encodedParams}`, {
+    const options = {
       method: 'POST',
-    })
-      .then(response => response.json())
-      .then(result => {
-        console.log('Data sent to server:', result);
-        showMessage('Data submitted successfully!', 'success');
-      })
-      .catch(error => {
-        console.error('Error sending data to server:', error);
-        showMessage(`http://localhost:4003/news/collect?${encodedParams}`, 'danger');
-      })
-      .finally(hideLoading); // Hide loading overlay after response (success or error)
-  }
-    
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      mode: 'cors',
+    };
   
+    try {
+      const response = await fetch(urlWithParams, options);
+      const result = await response.json();
+      console.log('Data sent to server:', result);
+      showMessage('Data submitted successfully!', 'success');
+    } catch (error) {
+      console.error('Error sending data to server:', error);
+      showMessage('Error submitting data. Please try again.', 'error');
+    } finally {
+      hideLoading(); // Hide loading overlay after response (success or error)
+    }
+  }
+  
+  
+
   function showMessage(message, type) {
     messageContainer.textContent = message;
     messageContainer.style.backgroundColor = type === 'success' ? '#28a745' : '#dc3545'; // Green or Red
