@@ -14,17 +14,23 @@
     <div id="link-container">
       <input type="text" id="link-input" placeholder="Enter Link...">
       <input type="checkbox" id="is-verified-checkbox">
-      <button id="submit-link-button">Submit</button>
+      <button id="submit-link-button" onclick="submitData('link')">Submit</button>
     </div>
     <div id="content-container">
       <textarea id="content-input" placeholder="Enter Content..."></textarea>
       <input type="text" id="source-input" placeholder="Enter Source...">
       <label for="is-verified-checkbox">Is Verified:</label>
       <input type="checkbox" id="is-verified-checkbox">
-      <button id="submit-content-button">Submit</button>
+      <button id="submit-content-button" onclick="submitData('content')">Submit</button>
     </div>
     <div id="message-container"></div>
   </div>
+
+  <div id="loading-overlay">
+    <div id="loading-indicator"></div>
+    <p>Loading...</p>
+  </div>
+
   <script src="popup.js"></script>
 </body>
 </html>

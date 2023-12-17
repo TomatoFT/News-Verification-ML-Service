@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var news_url = linkInput.value.trim();
     var is_verified = isVerifiedCheckbox.checked;
 
-    if (link) {
+    if (news_url) {
       sendDataToServer({ news_url, is_verified });
     } else {
       showMessage('Please enter a link before submitting.', 'danger');
@@ -48,14 +48,18 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+
   function sendDataToServer(data) {
-    // Send data to your local server
-    fetch('http://localhost:4003/news/collect', {
+    showLoading(); // Show loading overlay before sending data
+  
+    // Manually construct the URL with encoded parameters
+    const encodedParams = Object.entries(data)
+      .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+      .join('&');
+  
+    // Send data to your local server with URL parameters
+    fetch(`http://localhost:4003/news/collect?${encodedParams}`, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
     })
       .then(response => response.json())
       .then(result => {
@@ -64,10 +68,12 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       .catch(error => {
         console.error('Error sending data to server:', error);
-        showMessage('Error submitting data.', 'danger');
-      });
+        showMessage(`http://localhost:4003/news/collect?${encodedParams}`, 'danger');
+      })
+      .finally(hideLoading); // Hide loading overlay after response (success or error)
   }
-
+    
+  
   function showMessage(message, type) {
     messageContainer.textContent = message;
     messageContainer.style.backgroundColor = type === 'success' ? '#28a745' : '#dc3545'; // Green or Red
@@ -78,6 +84,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function hideMessage() {
     messageContainer.style.display = 'none';
+  }
+
+  function showLoading() {
+    var loadingOverlay = document.getElementById('loading-overlay');
+    loadingOverlay.style.display = 'flex';
+  }
+
+  function hideLoading() {
+    var loadingOverlay = document.getElementById('loading-overlay');
+    loadingOverlay.style.display = 'none';
   }
 
   // Show link input by default
