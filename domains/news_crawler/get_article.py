@@ -11,7 +11,7 @@ class GetArticle:
         self.authors = None
         self.publish_date = None
         self.content = None
-    
+
     def __call__(self) -> Any:
         try:
             self.article.download()
@@ -27,12 +27,13 @@ class GetArticle:
 
     def get_title(self):
         return self.title
-    
+
     def get_authors(self):
         return self.authors
-    
+
     def get_publish_date(self):
         return self.publish_date
-    
+
     def get_content(self):
         return self.content
+

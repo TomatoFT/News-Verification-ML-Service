@@ -1,2 +1,3 @@
 portainer-data
 __pycache__
+*.log
