@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="navbar">
+    <button id="enter-link-tab">Enter Link</button>
+    <button id="enter-content-tab">Enter Content and Source</button>
+  </div>
+  <div id="main-container">
+    <div id="link-container">
+      <input type="text" id="link-input" placeholder="Enter Link...">
+      <button id="submit-link-button">Submit</button>
+    </div>
+    <div id="content-container">
+      <textarea id="content-input" placeholder="Enter Content..."></textarea>
+      <input type="text" id="source-input" placeholder="Enter Source...">
+      <button id="submit-content-button">Submit</button>
+    </div>
+    <div id="message-container"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
