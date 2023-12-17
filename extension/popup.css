@@ -57,3 +57,8 @@ button {
   text-align: center;
   display: none;
 }
+
+#content-container label {
+  display: block;
+  margin-bottom: 5px;
+}

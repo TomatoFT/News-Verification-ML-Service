@@ -8,16 +8,19 @@
 <body>
   <div id="navbar">
     <button id="enter-link-tab">Enter Link</button>
-    <button id="enter-content-tab">Enter Content and Source</button>
+    <button id="enter-content-tab">Enter Content, Source, and Verification</button>
   </div>
   <div id="main-container">
     <div id="link-container">
       <input type="text" id="link-input" placeholder="Enter Link...">
+      <input type="checkbox" id="is-verified-checkbox">
       <button id="submit-link-button">Submit</button>
     </div>
     <div id="content-container">
       <textarea id="content-input" placeholder="Enter Content..."></textarea>
       <input type="text" id="source-input" placeholder="Enter Source...">
+      <label for="is-verified-checkbox">Is Verified:</label>
+      <input type="checkbox" id="is-verified-checkbox">
       <button id="submit-content-button">Submit</button>
     </div>
     <div id="message-container"></div>

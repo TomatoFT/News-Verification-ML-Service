@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var linkInput = document.getElementById('link-input');
   var contentInput = document.getElementById('content-input');
   var sourceInput = document.getElementById('source-input');
+  var isVerifiedCheckbox = document.getElementById('is-verified-checkbox');
 
   var submitLinkButton = document.getElementById('submit-link-button');
   var submitContentButton = document.getElementById('submit-content-button');
@@ -25,9 +26,11 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   submitLinkButton.addEventListener('click', function () {
-    var link = linkInput.value.trim();
+    var news_url = linkInput.value.trim();
+    var is_verified = isVerifiedCheckbox.checked;
+
     if (link) {
-      sendDataToServer({ link });
+      sendDataToServer({ news_url, is_verified });
     } else {
       showMessage('Please enter a link before submitting.', 'danger');
     }
@@ -36,8 +39,10 @@ document.addEventListener('DOMContentLoaded', function () {
   submitContentButton.addEventListener('click', function () {
     var content = contentInput.value.trim();
     var source = sourceInput.value.trim();
+    var isVerified = isVerifiedCheckbox.checked;
+
     if (content && source) {
-      sendDataToServer({ content, source });
+      sendDataToServer({ content, source, isVerified });
     } else {
       showMessage('Please enter content and source before submitting.', 'danger');
     }
@@ -45,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function sendDataToServer(data) {
     // Send data to your local server
-    fetch('http://localhost:5000/submit-data', {
+    fetch('http://localhost:4003/news/collect', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
