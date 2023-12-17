@@ -2,8 +2,8 @@ import csv
 import os
 from typing import Any
 
-from unverified import DKNNewsLink, LuatKhoaLink, NgoisaoLink
-from verified import ThanhNienNewsLinks, VnExpressNewsLink, VTVNewsLinks
+from get_links import (DKNNewsLink, LuatKhoaLink, NgoisaoLink,
+                       ThanhNienNewsLinks, VnExpressNewsLink, VTVNewsLinks)
 
 
 class LinkCrawler:

@@ -86,7 +86,7 @@ class BaseSeleniumNewsLinks:
         })
         if not file_name:
             name = self.name.replace(' ', '_')
-            file_name = f'links/{name}_link_news.py'
+            file_name = f'links/{name}_link_news.csv'
         df.to_csv(file_name, index=False)  # Save to CSV without index
 
 
@@ -152,5 +152,5 @@ class BaseBS4NewsLinks:
             'source': [article.source for article in self.articles_link]
         })
         name = self.name.replace(' ', '_')
-        file_name = f'links/{name}_link_news.py'
+        file_name = f'links/{name}_link_news.csv'
         df.to_csv(file_name, index=False) 
