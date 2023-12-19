@@ -1,4 +1,5 @@
 import csv
+import os
 
 from base_get_link import BaseBS4NewsLinks, BaseSeleniumNewsLinks
 

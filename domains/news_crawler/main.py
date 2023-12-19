@@ -1,11 +1,12 @@
 import pandas as pd
-import yaml
+from config import directory_path, output_file
+from features_eng import (get_entities_of_news, get_news_categories,
+                          get_sentiment_of_the_news,
+                          get_summarization_of_the_news)
 from get_article import GetArticle
 from get_links import (CombineCSV, DKNNewsLink, LinkCrawler, LuatKhoaLink,
                        NgoisaoLink, ThanhNienNewsLinks, VnExpressNewsLink,
                        VTVNewsLinks)
-
-from config import directory_path, output_file
 
 link_crawler = LinkCrawler(sources=[
                                     VTVNewsLinks, 
@@ -15,10 +16,6 @@ link_crawler = LinkCrawler(sources=[
                                     DKNNewsLink,
                                     LuatKhoaLink
                                     ])()
-
-
-# Specify the directory containing CSV files and the output file name
-
 
 # Call the function to combine CSV files
 CombineCSV(directory_path=directory_path, output_file=output_file)()
@@ -31,6 +28,13 @@ def apply_get_article(row):
     row['title'] = get_article_instance.get_title()
     row['content'] = get_article_instance.get_content()
     return row
+
+def apply_features_engineering_by_DL(data):
+    data['summarization'] = data['Content'].apply(get_summarization_of_the_news)
+    data['category'] = data['Content'].apply(get_news_categories)
+    data['entities'] = data['Content'].apply(get_entities_of_news)
+    data['sentiment'] = data['Content'].apply(get_sentiment_of_the_news)
+
 
 # Example usage:
 csv_data = pd.read_csv(output_file)
