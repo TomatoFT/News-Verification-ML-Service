@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy only the necessary files to the container
 COPY . .
 
-RUN ls
+RUN apt-get update && apt-get install -y cron
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
