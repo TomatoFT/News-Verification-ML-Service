@@ -75,9 +75,6 @@ class NgoisaoLink(BaseBS4NewsLinks):
     name = 'Ngoi Sao VNExpress'
 
 
-
-
-
 class LuatKhoaLink(BaseBS4NewsLinks):
     source = 'https://www.luatkhoa.com/'
     format_category_urls = ['tag/chinh-tri', 'tag/the-che', 'tag/hinh-su', 'tag/viet-nam-cong-hoatag/luat-my', 

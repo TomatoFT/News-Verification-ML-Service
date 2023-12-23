@@ -87,6 +87,7 @@ services:
 
   airflow-webserver:
     <<: *airflow-common
+    container_name: airflow-webserver
     command: webserver
     ports:
       - "8089:8080"
@@ -106,6 +107,7 @@ services:
   airflow-scheduler:
     <<: *airflow-common
     command: scheduler
+    container_name: airflow-scheduler
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
@@ -122,6 +124,7 @@ services:
   airflow-triggerer:
     <<: *airflow-common
     command: triggerer
+    container_name: airflow-triggerer
     healthcheck:
       test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
       interval: 30s
@@ -137,6 +140,7 @@ services:
 
   airflow-init:
     <<: *airflow-common
+    container_name: airflow-init
     entrypoint: /bin/bash
     command:
       - -c
@@ -159,6 +163,7 @@ services:
     <<: *airflow-common
     profiles:
       - debug
+    container_name: airflow-cli
     environment:
       <<: *airflow-common-env
       CONNECTION_CHECK_MAX_COUNT: "0"

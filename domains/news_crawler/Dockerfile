@@ -5,10 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Copy your source code to the container
-COPY main.py /app
-COPY config.py /app
-COPY get_article.py /app
-COPY get_links.py /app
+COPY . /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install pandas

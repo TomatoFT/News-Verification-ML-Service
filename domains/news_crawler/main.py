@@ -1,5 +1,4 @@
 import pandas as pd
-from config import directory_path, output_file
 # from features_eng import (get_entities_of_news, get_news_categories,
 #                           get_sentiment_of_the_news,
 #                           get_summarization_of_the_news)
@@ -7,6 +6,8 @@ from get_article import GetArticle
 from get_links import (CombineCSV, DKNNewsLink, LinkCrawler, LuatKhoaLink,
                        NgoisaoLink, ThanhNienNewsLinks, VnExpressNewsLink,
                        VTVNewsLinks)
+
+from config import directory_path, output_file
 
 link_crawler = LinkCrawler(sources=[
                                     VTVNewsLinks, 

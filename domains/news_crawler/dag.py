@@ -3,11 +3,12 @@ from datetime import datetime, timedelta
 import pandas as pd
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from config import directory_path, output_file
 from get_article import GetArticle
 from get_links import (CombineCSV, DKNNewsLink, LinkCrawler, LuatKhoaLink,
                        NgoisaoLink, ThanhNienNewsLinks, VnExpressNewsLink,
                        VTVNewsLinks)
+
+from config import directory_path, output_file
 
 
 def get_article_and_update_row(row):
