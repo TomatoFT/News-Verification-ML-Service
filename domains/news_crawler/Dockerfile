@@ -4,19 +4,29 @@ FROM python:3.8-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy only the necessary files to the container
-COPY . .
-
-RUN apt-get update && apt-get install -y cron
+# Copy your source code to the container
+COPY main.py /app
+COPY config.py /app
+COPY get_article.py /app
+COPY get_links.py /app
 
 # Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install pandas
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# Expose the Airflow ports
+EXPOSE 8080 5555 8793
 
-# Set up cron job
-RUN chmod +x /app/cron.sh
-RUN crontab /app/cron.sh
+# Install Airflow
+RUN pip install apache-airflow
 
-CMD ["cron", "-f"]
+# Initialize the Airflow database
+RUN airflow db init
+
+# Set up Airflow environment variables
+ENV AIRFLOW_HOME=/app/airflow
+
+# Copy the DAG file to the Airflow DAGs directory
+COPY your_airflow_dag.py /app/airflow/dags/
+
+# Start Airflow web server and scheduler
+CMD ["airflow", "webserver", "--port", "8080"]
