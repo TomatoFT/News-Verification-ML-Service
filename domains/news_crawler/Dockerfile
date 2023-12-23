@@ -26,7 +26,7 @@ RUN airflow db init
 ENV AIRFLOW_HOME=/app/airflow
 
 # Copy the DAG file to the Airflow DAGs directory
-COPY your_airflow_dag.py /app/airflow/dags/
+COPY dag.py /app/airflow/dags/
 
 # Start Airflow web server and scheduler
 CMD ["airflow", "webserver", "--port", "8080"]

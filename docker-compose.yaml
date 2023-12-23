@@ -43,6 +43,20 @@ services:
     networks:
       - uit-news-verification
 
+  airflow:
+    image: apache/airflow:2.1.2
+    depends_on:
+      - db
+      - news_crawler
+    environment:
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=mysql://airflow:airflow@db/airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+    volumes:
+      - ./dags:/opt/airflow/dags
+    networks:
+      - uit-news-verification
+
+
   db:
     image: mysql:latest
     container_name: mysql

@@ -3,6 +3,7 @@
 # mysql-connector-python==8.0.33
 newspaper3k==0.2.8
 selenium==4.10.0
-uvicorn==0.22.0
+# uvicorn==0.22.0
+apache-airflow
 # torch==2.0.1
 # transformers==4.35.2
