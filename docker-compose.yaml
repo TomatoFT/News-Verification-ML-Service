@@ -1,21 +1,45 @@
 version: '3.10'
 
+x-airflow-common: &airflow-common
+  build: .
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
+    AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+  volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${AIRFLOW_PROJ_DIR:-.}/news_crawler:/opt/airflow/news_crawler
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    postgres:
+      condition: service_healthy
+
 services:
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
     restart: unless-stopped
     security_opt:
-       - no-new-privileges:true
+      - no-new-privileges:true
     volumes:
-       - /etc/localtime:/etc/localtime:ro
-       - /var/run/docker.sock:/var/run/docker.sock:ro
-       - ./portainer-data:/data
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./portainer-data:/data
     ports:
-     - 9443:9443
-     - 8000:8000
+      - 9443:9443
+      - 8000:8000
+    networks:
+      - uit-news-verification
 
-  
   zookeeper:
     image: wurstmeister/zookeeper
     container_name: zookeeper
@@ -43,19 +67,107 @@ services:
     networks:
       - uit-news-verification
 
-  airflow:
-    image: apache/airflow:2.1.2
-    depends_on:
-      - db
-      - news_crawler
+  postgres:
+    image: postgres:13
     environment:
-      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=mysql://airflow:airflow@db/airflow
-      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
     volumes:
-      - ./dags:/opt/airflow/dags
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]  # Change user to "postgres"
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
     networks:
       - uit-news-verification
 
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-triggerer:
+    <<: *airflow-common
+    command: triggerer
+    healthcheck:
+      test: ["CMD-SHELL", 'airflow jobs check --job-type TriggererJob --hostname "$${HOSTNAME}"']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        # ... (unchanged)
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_UPGRADE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      _PIP_ADDITIONAL_REQUIREMENTS: ''
+    user: "0:0"
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}:/sources
+    networks:
+      - uit-news-verification
+
+  airflow-cli:
+    <<: *airflow-common
+    profiles:
+      - debug
+    environment:
+      <<: *airflow-common-env
+      CONNECTION_CHECK_MAX_COUNT: "0"
+    command:
+      - bash
+      - -c
+      - airflow
+    networks:
+      - uit-news-verification
 
   db:
     image: mysql:latest
@@ -81,7 +193,7 @@ services:
       - '4004:3000'
     depends_on:
       - kafka
-      # - db
+      - db
     restart: always
     networks:
       - uit-news-verification
@@ -99,15 +211,6 @@ services:
     networks:
       - uit-news-verification
 
-  # hadoop:
-  #   image: sequenceiq/hadoop-docker:2.7.1
-  #   container_name: hadoop
-  #   ports:
-  #     - '50070:50070'  # Web UI port
-  #     - '9000:9000'    # HDFS port
-  #   networks:
-  #     - uit-news-verification
-
   get_news:
     image: get_news
     container_name: get_news
@@ -121,7 +224,6 @@ services:
     depends_on:
       - kafka
       - db
-      # - hadoop
     restart: always
     networks:
       - uit-news-verification
@@ -132,10 +234,9 @@ services:
       dockerfile: Dockerfile
     container_name: news_crawler
     ports:
-      - "8080:80"
+      - "8081:80"
     volumes:
       - ./domains/news_crawler:/app
-    command: ["cron", "-f"]
     restart: always
     networks:
       - uit-news-verification
@@ -143,3 +244,6 @@ services:
 networks:
   uit-news-verification:
     name: uit-news-verification
+
+volumes:
+  postgres-db-volume:

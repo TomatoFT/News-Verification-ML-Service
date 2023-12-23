@@ -14,7 +14,7 @@ COPY get_links.py /app
 RUN pip install pandas
 
 # Expose the Airflow ports
-EXPOSE 8080 5555 8793
+EXPOSE 8081 5555 8793
 
 # Install Airflow
 RUN pip install apache-airflow
@@ -29,4 +29,4 @@ ENV AIRFLOW_HOME=/app/airflow
 COPY dag.py /app/airflow/dags/
 
 # Start Airflow web server and scheduler
-CMD ["airflow", "webserver", "--port", "8080"]
+CMD ["airflow", "webserver", "--port", "8081"]
