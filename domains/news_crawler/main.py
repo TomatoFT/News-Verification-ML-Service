@@ -29,12 +29,13 @@ def apply_get_article(row):
     row['content'] = get_article_instance.get_content()
     return row
 
+
 def apply_features_engineering_by_DL(data):
     data['summarization'] = data['Content'].apply(get_summarization_of_the_news)
     data['category'] = data['Content'].apply(get_news_categories)
     data['entities'] = data['Content'].apply(get_entities_of_news)
     data['sentiment'] = data['Content'].apply(get_sentiment_of_the_news)
-
+    
 
 # Example usage:
 csv_data = pd.read_csv(output_file)
