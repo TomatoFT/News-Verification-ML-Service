@@ -155,6 +155,7 @@ dmypy.json
 
 
 airflow/
+postgres-db-volume/
 
 # Cython debug symbols
 cython_debug/
